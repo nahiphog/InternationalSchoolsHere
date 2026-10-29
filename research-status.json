@@ -1,0 +1,194 @@
+{
+  "reviewed": "2026-10-28",
+  "coverage": {
+    "campusRecords": 115,
+    "primaryCampuses": 107,
+    "officialLocationSources": 114,
+    "publicEmails": 106,
+    "recruitmentOrHrEmails": 42,
+    "primarySubjectLists": 90
+  },
+  "limitations": [
+    "Subject lists may be partial and may vary by year group.",
+    "Sourced emails are published contacts; mailbox deliverability has not been tested.",
+    "General and admissions emails are fallback contacts, not invitations to send a CV.",
+    "Map pins are approximate unless a coordinate source is linked."
+  ],
+  "primarySubjectsUnresolved": [
+    {
+      "id": "igbis",
+      "name": "IGB International School",
+      "source": "https://igbis.edu.my/elementary/es-pyp/",
+      "reason": "PYP page explains the programme but does not publish a complete school-specific subject list."
+    },
+    {
+      "id": "acmar",
+      "name": "Acmar International School",
+      "source": "https://acmarschools.com.my/primary-school/",
+      "reason": "Official primary page describes ages and programme without a readable subject list."
+    },
+    {
+      "id": "fairview-kl",
+      "name": "Fairview International School · Kuala Lumpur",
+      "source": "https://fairview.edu.my/our-programmes/primary-years-programme/",
+      "reason": "Official PYP page lists themes rather than a campus-specific primary subject timetable."
+    },
+    {
+      "id": "fairview-sj",
+      "name": "Fairview International School · Subang Jaya",
+      "source": "https://fairview.edu.my/our-programmes/primary-years-programme/",
+      "reason": "Official PYP page lists themes rather than a campus-specific primary subject timetable."
+    },
+    {
+      "id": "cempaka",
+      "name": "Cempaka International School · Damansara Heights",
+      "source": "https://cempaka.edu.my/",
+      "reason": "Official site describes the Finnish primary pathway; a school-specific primary subject list remains unconfirmed."
+    },
+    {
+      "id": "inspiros-klang",
+      "name": "Inspiros International School · Klang",
+      "source": "https://inspiros.edu.my/klang/",
+      "reason": "Klang campus is still described as in its final stages of completion. Puchong subjects have not been assumed to apply."
+    },
+    {
+      "id": "axcel",
+      "name": "Axcel International School",
+      "source": "https://axcel.edu.my/who-we-are/",
+      "reason": "Primary provision confirmed, but a current official primary subject list was not readable during this review."
+    },
+    {
+      "id": "abedeen",
+      "name": "Abedeen International School",
+      "source": "https://abedeen.edu.my/",
+      "reason": "School also operates a Malaysian national stream; national primary subject lists have not been copied to its international stream."
+    },
+    {
+      "id": "beverly",
+      "name": "Beverly International Genius School",
+      "source": "https://beverly.com.my/bigs-academic/",
+      "reason": "School academic page identifies primary ages, but full page access timed out during this review."
+    },
+    {
+      "id": "canary",
+      "name": "Canary International School",
+      "source": "https://canaryis.edu.my/program/Cambridge%20Primary%20School/",
+      "reason": "Official primary page confirms the programme but no readable school-specific subject list was established."
+    },
+    {
+      "id": "taipei",
+      "name": "Chinese Taipei School",
+      "source": "https://www.cts.edu.my/calendar-28.html",
+      "reason": "Official primary timetables are linked; a current primary subject transcription remains pending. The 2018 draft has not been treated as current."
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald Gardens International School",
+      "source": "https://schooladvisor.my/schools/emerald-gardens-international-school",
+      "reason": "Listing says Opening Soon; operating status, primary provision and official contact remain unconfirmed."
+    },
+    {
+      "id": "his-subang",
+      "name": "HIS International School",
+      "source": "https://www.hisschools.edu.my/services.html",
+      "reason": "Official programme page confirms Years 1–6 without a readable primary subject list."
+    },
+    {
+      "id": "huaxia",
+      "name": "Hua Xia International School",
+      "source": "https://hxis.huaxia.edu.my/",
+      "reason": "Current site navigation exposes early years and secondary; primary availability and subjects need direct confirmation."
+    },
+    {
+      "id": "reed",
+      "name": "Reed International School",
+      "source": "https://www.reed.edu.my/",
+      "reason": "Primary provision is stated but no current official primary subject list was established."
+    },
+    {
+      "id": "saint",
+      "name": "SAINT International School",
+      "source": "https://saint.edu.my/curriculums-2/",
+      "reason": "Official curriculum page confirms primary provision without naming its primary subjects."
+    },
+    {
+      "id": "sasana",
+      "name": "Sasana International School",
+      "source": "https://sasana.edupage.org/subjects/",
+      "reason": "School portal lists subjects across all stages without clear primary-only mapping; secondary subjects have not been copied into the primary filter."
+    }
+  ],
+  "emailUnresolved": [
+    {
+      "id": "garden",
+      "name": "Garden International School",
+      "source": "https://www.gardenschool.edu.my/about-gis/working-at-gis/",
+      "applicationUrl": "https://www.gardenschool.edu.my/about-gis/job-opportunities/",
+      "notes": "Use the official careers page. Only Music has been individually checked in this snapshot; the subject list is incomplete. French or Spanish starts in Years 5–6; this is the published KS2 list and may be incomplete."
+    },
+    {
+      "id": "nexus",
+      "name": "Nexus International School Malaysia",
+      "source": "https://taylorsschools.com/careers/",
+      "applicationUrl": "https://taylorsschools.com/careers/",
+      "notes": "Use Taylor’s Schools careers portal; no recruitment email established."
+    },
+    {
+      "id": "aism",
+      "name": "Australian International School Malaysia",
+      "source": "https://taylorsschools.com/careers/",
+      "applicationUrl": "https://taylorsschools.com/careers/",
+      "notes": "Official contact form has a Human Resources option."
+    },
+    {
+      "id": "tenby-sep",
+      "name": "Tenby International School · Setia Eco Park",
+      "source": "https://www.tenby.edu.my/setia-eco-park/careers",
+      "applicationUrl": null,
+      "notes": "Use the official careers page; no current public recruitment email established."
+    },
+    {
+      "id": "tenby-seh",
+      "name": "Tenby International School · Setia EcoHill",
+      "source": "https://www.tenby.edu.my/setia-ecohill/careers",
+      "applicationUrl": null,
+      "notes": ""
+    },
+    {
+      "id": "inspiros-klang",
+      "name": "Inspiros International School · Klang",
+      "source": "https://inspiros.edu.my/",
+      "applicationUrl": null,
+      "notes": "Official campus page says the main building and key facilities are in their final stages of completion. Confirm opening date, current teaching location and hiring availability before visiting."
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald Gardens International School",
+      "source": "https://educationdestinationmalaysia.com/schools/selangor?page=3",
+      "applicationUrl": null,
+      "notes": "SchoolAdvisor describes this school as Opening Soon at Lot 6, SS6, Jalan Perbandaran, Kelana Jaya. Operating status, primary provision and official contact remain unconfirmed. Do not treat as an established employer."
+    },
+    {
+      "id": "globalark",
+      "name": "Global Ark International School",
+      "source": "https://gais.edu.my/contact-global-ark-international-school-new/",
+      "applicationUrl": null,
+      "notes": ""
+    },
+    {
+      "id": "beaconhouse",
+      "name": "Beaconhouse Sri Inai International School",
+      "source": "https://beaconhouse.edu.my/career/",
+      "applicationUrl": "https://beaconhouse.edu.my/career/",
+      "notes": "Official career page has vacancies and application details; no readable recruitment email established."
+    }
+  ],
+  "locationUnresolved": [
+    {
+      "id": "emerald",
+      "name": "Emerald Gardens International School",
+      "source": "https://schooladvisor.my/schools/emerald-gardens-international-school",
+      "notes": "SchoolAdvisor describes this school as Opening Soon at Lot 6, SS6, Jalan Perbandaran, Kelana Jaya. Operating status, primary provision and official contact remain unconfirmed. Do not treat as an established employer."
+    }
+  ]
+}

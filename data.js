@@ -182,4 +182,161 @@ subjectCheck('elc-sb',['English','Mathematics','Science','Bahasa Melayu'],'https
 subjectCheck('tenby-sep',['English','Mathematics','Science','History','Geography','Bahasa Melayu','Mandarin','Design & Technology','Art','Music','Computing','Physical Education','PSHE'],'https://www.tenby.edu.my/setia-eco-park/learning-journey/international-curriculum/primary-international-curriculum');
 subjectCheck('tenby-seh',['English','Mathematics','Science','Computing','Music','PSHE','Physical Education','Bahasa Melayu','Mandarin','Art','Drama'],'https://www.tenby.edu.my/setia-ecohill/learning-journey/primary-international-curriculum');
 subjectCheck('tenby-ta',['English','Mathematics','Science','Computing','Music','PSHE','Physical Education','Bahasa Melayu','Mandarin','Art','History','Geography','Swimming'],'https://www.tenby.edu.my/tropicana-aman/learning-journey/primary-international-curriculum');
+verify('cranbridge','https://www.cranbridge.edu.my/faq/','Lot 48 Jalan Tiga, off Jalan Chan Sow Lin, 55200 Kuala Lumpur',3.124,101.714,'doreen@cranbridge.edu.my','Recruitment','School FAQ invites CVs to this address.');
+rows.find(s=>s.id==='cranbridge').contactSource='https://www.cranbridge.edu.my/frequently_asked_question/';
+verify('iism','https://iiumholdings.com.my/the-directory/','Batu 8 Jalan Sungai Pusu, Gombak, 53100 Kuala Lumpur',3.252,101.731,null);
+Object.assign(rows.find(s=>s.id==='iism'),{state:'Selangor',notes:'Gombak is in Selangor; the postal address uses Kuala Lumpur. No recruitment email established. School group directory confirms primary provision.'});
+subjectCheck('aism',['English','Mathematics','History','Geography','Science','Art','Bahasa Melayu','Mandarin','Drama','Music','Physical Education'],'https://aism.edu.my/learning/junior-school/junior-schools-subjects/');
+subjectCheck('mutiara',['English','Mathematics','Science'],'https://migs.edu.my/overview/');
+subjectCheck('globalmodern',['English','Mathematics','Science','Computing','Geography','Arabic','French','Islamic Studies','Bahasa Melayu','Art','Music','Physical Education'],'https://www.gmis-edu.com/academics');
+subjectCheck('parkcity',['English','Mathematics','Science','Physical Education','Swimming','Mandarin','Bahasa Melayu','Music','Performing Arts'],'https://isp.edu.my/learning/primary-school/');
+verify('ais','https://ais-kl.edu.my/contact-us/','4 & 6 Lengkok Bellamy, Jalan Bellamy, off Jalan Istana, Bukit Petaling, 50460 Kuala Lumpur',3.129,101.702,'front.desk@ais-kl.edu.my');
+verify('good','https://goodschool.edu.my/','Quayside Tower, Levels 10–12, Persiaran Freesia, Gamuda Kemuning 25.7, Telok Panglima Garang, 42500 Kuala Langat, Selangor',2.951,101.552,null);
+verify('taipei','https://www.cts.edu.my/directors.htm','1 Persiaran Sungai Selangor, Bukit Rimau, Seksyen 32, 40460 Shah Alam, Selangor',2.995,101.516,'admin@cts.edu.my','General','General email is supported by the school’s 2025 administrative notice; check recruitment requirements separately.');
+rows.find(s=>s.id==='taipei').contactSource='https://www.cts.edu.my/upload_files/總務處/113-2%20吉隆坡臺灣學校%20%20總務公告%20暑期上班時間.pdf';
+// Follow-up research: use school-published subject lists, preserving campus differences.
+subjectCheck('mahsa',['English','Mathematics','Science','History','Geography','Computing'],'https://www.miskl.edu.my/primary-education.php');
+subjectCheck('stjohn',['English','Mathematics','Science','Bahasa Melayu','History','Moral Education','Islamic Studies','Computing','Physical Education','Art','Music','Dance','Performing Arts'],'https://sjis.edu.my/academics/primary/');
+subjectCheck('kdu-klang',['English','Mathematics','Science','Mandarin'],'https://srikdu.edu.my/klang/primary-education/');
+Object.assign(rows.find(s=>s.id==='kdu-kd'),{address:'3 Jalan Teknologi 2/1, Kota Damansara, 47810 Petaling Jaya, Selangor',locationSource:'https://srikdu.edu.my/kota-damansara-international/'});
+subjectCheck('havil',['English','Mandarin','Art','Computing','Mathematics','Humanities','Bahasa Melayu','Physical Education','Science','Music','Character Education'],'https://havil.edu.my/academics-primary/');
+subjectCheck('straits',['English','Mathematics','Bahasa Melayu','Music','Physical Education','Islamic Studies','Moral Education','Mandarin','Computing'],'https://rawangsisgroup.edu.my/learning-success/primary/');
+subjectCheck('concord',['English','Mathematics','Science','Humanities','Computing','Art','Music','Physical Education','Mandarin','PSHE','Bahasa Melayu','History'],'https://www.concordcollege.edu.my/primary/');
+subjectCheck('reigate',['English','Mathematics','Science','History','Geography','PSHE','Mandarin','Bahasa Melayu','French','Art','Music','Drama','Computing','Physical Education','Swimming','Islamic Studies'],'https://www.reigategrammar.edu.my/primary');
+subjectCheck('dwi',['English','Science','Mathematics','Bahasa Melayu','Mandarin','Computing','Islamic Studies','History','Geography','Social Studies','Technology','Entrepreneurship','Physical Education','Dance','Art','Music','Drama'],'https://dwiemas.edu.my/primary/');
+for(const id of ['tis-kl','tis-pc']) subjectCheck(id,['English','Mathematics','Science','Bahasa Melayu','Mandarin','Geography','Art','Music','Computing','PSHE','Islamic Studies','Physical Education',...(id==='tis-pc'?['History','Design & Technology']:[])],'https://www.tis.edu.my/learning/primary/primary-school-subjects/');
+for(const id of ['collinz-klang','collinz-gl']) subjectCheck(id,['English','Mathematics','Bahasa Melayu','Mandarin','Computing','Science','History','Physical Education','Geography','Music','Art'],'https://collinz.edu.my/school/academic/primary');
+subjectCheck('heritage',['English','Bahasa Melayu','Mandarin','Mathematics','Science','History','Geography','Computing','Performing Arts','Physical Education','Art','Life Skills','Character Education','French','Global Perspectives','Design & Technology'],'https://heritage.edu.my/academic/primary/');
+rows.find(s=>s.id==='heritage').notes+=' Subject list is labelled 2024/2025; French, Global Perspectives and Design & Technology are listed for Years 4–6.';
+for(const id of ['maz-pj','maz-sa']) subjectCheck(id,['English','Bahasa Melayu','Science','Mathematics','Geography','Computing','Arabic','Mandarin','Hindi','Islamic Studies'],'https://mazinternational.edu.my/primary/');
+rows.find(s=>s.id==='reigate').notes+=' Bahasa Melayu or French are alternatives; Islamic Studies is optional against PSHE; Drama is Years 3–6.';
+subjectCheck('sji',['English','Mathematics','Mandarin','Bahasa Melayu','Music','Performing Arts','Physical Education','Swimming'],'https://www.sji-international.edu.my/elementary-school/');
+subjectCheck('sriemas',['English','Science','Mathematics','Bahasa Melayu','Mandarin','Islamic Studies','History','Geography','Social Studies','Technology','Global Studies','Art','Dance','Music','Drama','Computing','Physical Education'],'https://sriemas.edu.my/primary-curriculum/');
+subjectCheck('inspiros-pc',['English','Mathematics','Science','History','Geography','Art','PSHE','Physical Education','Music','Mandarin'],'https://inspiros.edu.my/puchong-primary/');
+subjectCheck('cranbridge',['English','Mathematics','Science','Geography','Art','Bahasa Melayu','Music','Computing','Social Studies','Life Skills'],'https://www.cranbridge.edu.my/curriculum-old/');
+rows.find(s=>s.id==='cranbridge').notes+=' Subject list is from the school’s legacy curriculum page; confirm the current timetable.';
+subjectCheck('oakbridge',['English','Mathematics','Science','Bahasa Melayu','Mandarin','STEM','Moral Education','Social Studies','Art'],'https://oakbridge.edu.my/academic-overview/primary-levels/');
+function contactCheck(id,email,kind,url,note='') {Object.assign(rows.find(s=>s.id===id),{email,contactKind:kind,contactSource:url});if(note) rows.find(s=>s.id===id).notes+=' '+note;}
+contactCheck('sayfol','hr@sayfol.edu.my','HR','https://sayfol.edu.my/about/career/','Career page invites applications for academic year 2026/2027.');
+contactCheck('axcel','career@axcel.edu.my','Recruitment','https://axcel.edu.my/careers/','Published in the school careers search index; direct page currently returns an error, so confirm before sending.');
+contactCheck('honsbridge','hr@honsbridge.edu.my','HR','https://www.linkedin.com/posts/honsbridge_hiring-hiring-teachers-activity-7201067882892414976-3API','Official school hiring post from 2024; current acceptance of unsolicited applications is unconfirmed.');
+contactCheck('heritage','recruitment@jjinternational.edu.my','Recruitment','https://my.linkedin.com/company/heritage-international-school-malaysia','Official school LinkedIn advert directs CVs to the J&J group recruitment address.');
+contactCheck('hibiscus','inquiries@hibiscus.edu.my','General','https://hibiscus.edu.my/careers/','Recruitment uses the CV upload form at https://hibiscus.edu.my/careers/; email shown here is a general fallback.');
+verify('harvest','https://www.harvestintsch.edu.my/contact-us/','Lot 6934, Berkeley Complex, Jalan Lang, Taman Berkeley, 41150 Klang, Selangor',3.063,101.466,'enquiry@harvestintsch.edu.my');
+verify('gots','https://gots.edu.my/careers/','GL3 (Primary), Plaza Jelutong, Persiaran Gerbang Utama, Bukit Jelutong, 40150 Shah Alam, Selangor',3.104,101.535,'enquiry@gots.edu.my','General','Primary is GL3 and Secondary is GL1 at Plaza Jelutong. See the official careers page for application options.');
+verify('wisdomspring','https://wisdomspring.edu.my/','G35 Block A, Saville Kajang, off Jalan Reko, 43000 Kajang, Selangor',2.966,101.791,'info@wisdomspring.edu.my','General','Current school website lists Saville Kajang; older directory addresses differ. Confirm campus access before visiting.');
+verify('marefat','https://marefat.edu.my/main/','Jalan 6/4, Desa Melawati, Taman Melawati, 53100 Kuala Lumpur',3.237,101.735,null,'','Official school website identifies Desa Melawati as the campus. HQ is listed separately; no recruitment email confirmed.');
+verify('finnlight','https://finnlight.com.my/contact/','23 Jalan Maisons 2, Pusat Perdagangan Maisons, 48000 Rawang, Selangor',3.32,101.559,'enquiry@finnlight.edu.my');
+verify('ardence','https://www.ardenceinternationalschool.edu.my/contact-us','2 Jalan Eco Ardence C U12/36C, Eco Ardence, Setia Alam, 40170 Shah Alam, Selangor',3.113,101.477,'hello.ardence@gmail.com');
+verify('globalark','https://gais.edu.my/contact-global-ark-international-school-new/','Block C, Tiara Imperio, Jalan Ilmiah 1, 43000 Kajang, Selangor',2.935,101.787,null);
+verify('mindrich','https://www.mindrich.edu.my/','Level 13 & 13A, Top Glove Tower, 16 Persiaran Setia Dagang, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor',3.11,101.46,'enquiries@mindrich.edu.my');
+verify('frontier','https://frontierinternational.edu.my/enquire-now/','Jalan 3/114, Kuchai Business Centre, 58100 Kuala Lumpur',3.09,101.688,'phileon@frontierinternational.edu.my');
+verify('tls','https://tlsinternational.edu.my/about-us/','12 & 13 Lorong Teknologi C, PJU 5, Kota Damansara, 47810 Petaling Jaya, Selangor',3.156,101.577,'admissions@tlsinternational.edu.my','Admissions');
+verify('charterhouse','https://www.charterhouse-htms.edu.my/contact-us/','62 Jalan Sri Hartamas 1, Taman Sri Hartamas, 50480 Kuala Lumpur',3.162,101.656,'info@charterhouse-htms.edu.my','General','Official careers page directs applicants to TES: https://www.charterhouse-htms.edu.my/careers/');
+Object.assign(rows.find(s=>s.id==='emerald'),{notes:'SchoolAdvisor describes this school as Opening Soon at Lot 6, SS6, Jalan Perbandaran, Kelana Jaya. Operating status, primary provision and official contact remain unconfirmed. Do not treat as an established employer.',locationSource:'https://schooladvisor.my/schools/emerald-gardens-international-school'});
+subjectCheck('elc-cj',['English','Mathematics','Science','Bahasa Melayu','Mandarin','Spanish','French'],'https://www.elc.edu.my/elc-cyberjaya-primary-education/');
+subjectCheck('icons',['English','Mathematics','Science','Bahasa Melayu','Mandarin','Computing','Art','Drama'],'https://icons.edu.my/programmes/cambridge-primary-year-1-year-6/');
+subjectCheck('mitstem',['English','Science','Mathematics','Bahasa Melayu','Mandarin','Islamic Studies','History','Geography','Social Studies','Technology','Global Studies','Dance','Art','Music','Drama','Physical Education','Computing'],'https://mitstem.edu.my/our-curriculum/');
+subjectCheck('oxburgh',['English','Bahasa Melayu','Mandarin','Mathematics','Science','English Literature','Art','Personal Development','Music','Life Skills','Islamic Studies','Physical Education'],'https://oxburgh.edu.my/ks2/');
+subjectCheck('regent',['English','Geography','Physical Education','Art','Public Speaking','Mathematics','History','Music','PSHE','Science','Bahasa Melayu','Computing','Mandarin','Tamil'],'https://regent.edu.my/curriculum/primary/');
+for(const id of ['greenview-sa','greenview-bangi']) subjectCheck(id,['English','Mathematics','Science','Islamic Studies'],'https://greenviewiis.com/');
+subjectCheck('seven-skies',['English','Mathematics','Science','Arabic','Quranic Studies','Islamic Studies','Computing','Bahasa Melayu','History','Humanities','Character Education','Art'],'https://sevenskies.edu.my/primary/');
+subjectCheck('kh8',['English','Mathematics','Science','History','Geography','Art','Music','Computing','Physical Education','PSHE'],'https://www.kinghenryviii.edu.my/key-stage-1-and-key-stage-2');
+rows.find(s=>s.id==='kh8').notes+=' Specialist primary page additionally lists Bahasa Melayu and Mandarin: https://kinghenryviii.edu.my/specialist-subjects';
+rows.find(s=>s.id==='kh8').subjects.push('Bahasa Melayu','Mandarin');
+subjectCheck('idrissi-bj',['English','Science','Mathematics','Bahasa Melayu','Arabic','Physical Education','Quranic Studies','Islamic Studies','Moral Education','History','Robotics','Art','Financial Literacy'],'https://www.idrissischool.edu.my/bukitjelutong/primary-school/');
+subjectCheck('alhamra',['English','Bahasa Melayu','Mathematics','Science','Arabic'],'https://alhamra.edu.my/wp-content/uploads/2024/03/AHIS-List-of-Subjects-2024.pdf');
+rows.find(s=>s.id==='alhamra').notes+=' Published subject matrix is dated 2024; only clearly confirmed primary subjects have been transcribed.';
+subjectCheck('kdu-sj',['Mathematics','Science','English','Humanities','Art','Music','Physical Education','Computing','PSHE','French','Mandarin','Bahasa Melayu'],'https://srikdu.edu.my/subang-jaya/primary-education/');
+subjectCheck('sanctus',['English','Mathematics','Science','Music','Art','History','Computing','Bahasa Melayu'],'https://www.sanctus.edu.my/curriculum/');
+subjectCheck('oasis',['English','Mathematics','Science','Social Studies','Character Education'],'https://www.ois.edu.my/learning/elementary-school');
+subjectCheck('harvest',['English','Mathematics','Science','Bahasa Melayu'],'https://www.harvestintsch.edu.my/programmes/');
+rows.find(s=>s.id==='harvest').notes+=' Primary subjects page is unfinished; this is a partial list only.';
+subjectCheck('good',['English','Science','Mathematics','Bahasa Melayu','Mandarin','Computing','Humanities','Drama','Music','Physical Education','Islamic Studies'],'https://goodschool.edu.my/cambridgeprimary/');
+subjectCheck('ais',['English','Bahasa Melayu','History','Geography','Science','Computing','Art','Physical Education','Mathematics','Mandarin','Arabic','Communication','Islamic Studies'],'https://ais-kl.edu.my/primary/');
+rows.find(s=>s.id==='ais').notes+=' Mandarin or Arabic and Communication or Islamic Studies are electives.';
+subjectCheck('aspiration',['Art','Languages','Mathematics','Physical Education','PSHE','Social Studies','Science'],'https://www.aspirationis.edu.my/early-years-and-primary-school');
+subjectCheck('kys',['Languages','Mathematics','Science','Creative Arts','Physical Education','Global Perspectives','History','Religious Studies'],'https://kyskleast.edu.my/programmes/primary');
+subjectCheck('dskl',['German','English','Mathematics'],'https://www.dskl.edu.my/en/school/primary-school/');
+subjectCheck('sr kl',['English','Mathematics','Science'],'https://www.srikl.edu.my/primary/curriculum/');
+rows.find(s=>s.id==='sr kl').subjects.push('Bahasa Melayu','Mandarin');
+rows.find(s=>s.id==='sr kl').notes+=' Bahasa Melayu and Mandarin are confirmed in the primary principal’s message: https://www.srikl.edu.my/primary/message-from-the-principal/';
+for(const id of ['lfkl','lfkl-hevea']) subjectCheck(id,['French','Mathematics','Languages','Physical Education','Art','Moral Education',...(id==='lfkl'?['History','Geography']:[])],'https://www.lfkl.edu.my/elementary-school/');
+rows.find(s=>s.id==='lfkl-hevea').notes+=' Hevea serves the younger primary years through CE2; History and Geography are separately listed for CM1–CM2 at the main campus.';
+contactCheck('good','hr@goodschool.edu.my','HR','https://goodschool.edu.my/careers/','School career page invites resume submissions.');
+contactCheck('sr kl','career@srikl.edu.my','Recruitment','https://www.srikl.edu.my/careers/','School requests a cover letter, two-page CV, photograph and 2–3 referees; check current instructions.');
+for(const id of ['ucsi-sj','ucsi-kl']) contactCheck(id,'hr@ucsischools.edu.my','HR','https://www.ucsiinternationalschool.edu.my/kl/wp-content/uploads/sites/3/2025/05/UCSI_Schools-Teacher-Trainee-Programme.pdf','Shared UCSI Schools HR address. The cited 2025 programme covers KL and Subang Jaya; specify your desired school and campus.');
+contactCheck('kh8','hrd@kinghenryviii.edu.my','HR','https://www.kinghenryviii.edu.my/our-careers','Current careers page invites a letter of application and CV to HRD.');
+rows.find(s=>s.id==='kh8').notes=rows.find(s=>s.id==='kh8').notes.replace('General fallback from an official 2024 booklet. Use current careers page for recruitment. ','');
+contactCheck('canary','enquiry.canaryis@kslkl.my','General','https://canaryis.edu.my/hiring/','Live hiring page says no job opening at the moment. This is its general inquiry fallback.');
+verify('maverick','https://www.maverick.edu.my/Secondary/contactus.php','9 Jalan 3/20, Taman Anggerik Perdana, Bandar Teknologi Kajang, 43500 Semenyih, Selangor',2.979,101.841,'admin@maverick.edu.my','General','Secondary campus; a separate primary campus is listed independently.');
+add('maverick-primary','Maverick International Primary School','Semenyih','Selangor','Lot 13002, Jalan Mewah Avenue, off Jalan Sunway Semenyih, Taman Desa Mewah, 43500 Semenyih, Selangor',2.961207,101.8388947,'https://www.maverick.edu.my/Primary/contactus.php','admin@maverick.edu.my','General','https://www.maverick.edu.my/Primary/contactus.php',['English','Bahasa Melayu','Mathematics','Science','Geography','History','Mandarin','Spanish','Italian','French','German','Arabic','Tamil','Music','Art','Computing','Physical Education','Life Skills'],'https://www.maverick.edu.my/Primary/curriculum.php','Foreign languages are listed as choices; confirm availability. Recruitment uses the application form at https://www.maverick.edu.my/Primary/career.php','Cambridge');
+rows.find(s=>s.id==='maverick-primary').coordinateSource='https://www.maverick.edu.my/Primary/contactus.php';
+subjectCheck('garden',['English','English Literature','Mathematics','History','Geography','Computing','Design & Technology','Music','Art','Physical Education','Bahasa Melayu','Mandarin','French','Spanish'],'https://www.gardenschool.edu.my/learning/primary/year-3-to-6-curriculum/');
+rows.find(s=>s.id==='garden').notes+=' French or Spanish starts in Years 5–6; this is the published KS2 list and may be incomplete.';
+subjectCheck('kdu-kd',['English','Mathematics','Science','Humanities','Art','Music','Physical Education','Bahasa Melayu','Mandarin'],'https://srikdu.edu.my/kota-damansara-international/primary-education/');
+subjectCheck('idrissi-sa',[...rows.find(s=>s.id==='idrissi-bj').subjects],'https://www.idrissischool.edu.my/setiaalam/primary-school/');
+subjectCheck('gots',['English','Mathematics','Science','Mandarin','Bahasa Melayu','Music','History','Computing','Geography','Art','Physical Education','Financial Literacy','Life Skills','Islamic Studies'],'https://gots.edu.my/primary/');
+subjectCheck('sunway',['English','Mathematics','Science','Inquiry','Art','Physical Education','Music','Mandarin','Bahasa Melayu','Character Education'],'https://sunwayschools.edu.my/siskl/british-school/programmes/cambridge-primary-programme');
+rows.find(s=>s.id==='sunway').notes+=' Subject list refers to the Cambridge primary programme; Sunway also has other pathways.';
+subjectCheck('hibiscus',['English','Mathematics','Science'],'https://hibiscus.edu.my/primary/');
+subjectCheck('campusrangers',['English','Mathematics','Science'],'https://www.campusrangers.edu.my/campus-rangers-international-school/');
+subjectCheck('iism',['Mathematics','Science','English','Bahasa Melayu','Arabic','Islamic Studies','Quranic Studies','Physical Education','Swimming','Art','Computing'],'https://iium-schools.edu.my/v3/iism-primary/');
+contactCheck('iism','hr@iium-schools.edu.my','HR','https://iium-schools.edu.my/v3/career/','School group careers page invites CVs to HR; specify the position and Gombak campus.');
+subjectCheck('ucsi-sj',['English','Mathematics','Science','Computing','History','Geography','Music','Physical Education','Art'],'https://www.ucsiinternationalschool.edu.my/sj/primary-curriculum-year-1-6/');
+subjectCheck('ucsi-kl',['Science','Mathematics','English','Computing','Music','Physical Education','Swimming','Design & Technology'],'https://www.ucsiinternationalschool.edu.my/kl/student-study-pathway/');
+Object.assign(rows.find(s=>s.id==='ucsi-kl'),{website:'https://www.ucsiinternationalschool.edu.my/kl/'});
+subjectCheck('bestari',['English','Physical Education','Mandarin','Bahasa Melayu','Mathematics','Science'],'https://www.sribestariinternational.edu.my/curriculum/primary/');
+subjectCheck('honsbridge',['English','Bahasa Melayu','Mandarin','Mathematics','Science','Physical Education','Music','Computing'],'https://honsbridge.edu.my/primary/');
+rows.find(s=>s.id==='honsbridge').notes+=' Music is specifically listed from 2025 for Primary 1–3.';
+subjectCheck('brainy',['Islamic Studies','Quranic Studies','English','Bahasa Melayu','Arabic','Life Skills','Physical Education'],'https://bbis.edu.my/program');
+subjectCheck('primrose',['English','Mathematics','Forest Studies'],'https://www.primrosehillactivelearning.co.uk/curriculum');
+subjectCheck('peninsula',['English','Mathematics','Science','Geography','History','Art','Music','Physical Education','French','Mandarin','Bahasa Melayu','Design & Technology','Performing Arts','Computing'],'https://peninsula.edu.my/our-curriculum/');
+contactCheck('sempurna','enquiry@srisempurna.edu.my','General','https://srisempurna.edu.my/contact','Recruitment accepts CVs through the form linked from https://srisempurna.edu.my/careers; this email is a general fallback.');
+subjectCheck('victoria',['English','Mathematics','Science','Geography','History','PSHE','Global Perspectives','Bahasa Melayu','Music','Art'],'https://victoria.edu.my/primary/');
+subjectCheck('dasmesh',['English','Mathematics','Science','Bahasa Melayu','Art','Physical Education','PSHE','Music','Mandarin','Punjabi','Computing','History','Geography','Life Skills'],'https://sridasmesh.edu.my/private-primary-school-kl/');
+rows.find(s=>s.id==='dasmesh').notes+=' Mandarin is listed in KS1; ICT, History, Geography and Living Skills in KS2.';
+subjectCheck('giis',['English','Mathematics','Science','Global Perspectives'],'https://globalindianschool.org/my/curricula/cpp/');
+subjectCheck('marefat',['English','Mathematics','Science'],'https://marefat.edu.my/main/');
+Object.assign(rows.find(s=>s.id==='inspiros-klang'),{address:'Lot 97683, Persiaran Botanik, Bandar Botanik, 41200 Klang, Selangor',locationSource:'https://inspiros.edu.my/klang/',notes:'Official campus page says the main building and key facilities are in their final stages of completion. Confirm opening date, current teaching location and hiring availability before visiting.'});
+// Explicit application routes are kept separately from fallback inquiry emails.
+for(const [id,url] of Object.entries({hibiscus:'https://hibiscus.edu.my/careers/',sempurna:'https://srisempurna.edu.my/careers',canary:'https://canaryis.edu.my/hiring/',charterhouse:'https://www.charterhouse-htms.edu.my/careers/','maverick-primary':'https://www.maverick.edu.my/Primary/career.php',garden:'https://www.gardenschool.edu.my/about-gis/job-opportunities/',beaconhouse:'https://beaconhouse.edu.my/career/',regent:'https://careers.globalschools.com/'})) rows.find(s=>s.id===id).applicationUrl=url;
+subjectCheck('nobel',['English','Bahasa Melayu','Mandarin','Science','Mathematics','Global Perspectives','Social Studies','Physical Education','Character Education','Islamic Studies','Art','Culinary Skills','Design & Technology','Computing'],'https://nobel.edu.my/academics/elementary');
+rows.find(s=>s.id==='nobel').notes+=' Global Perspectives is Years 5–6; ICT and MakerSpace Years 1–3; Technology & Innovation Years 4–6. Career applications use the website’s resume upload form.';
+rows.find(s=>s.id==='nobel').applicationUrl='https://nobel.edu.my/career';
+contactCheck('nobel','enquiry@nobel.com.my','General','https://nobel.edu.my/academics/elementary');
+Object.assign(rows.find(s=>s.id==='nobel'),{address:'43 SS22/41, Damansara Jaya, 47400 Petaling Jaya, Selangor',locationSource:'https://nobel.edu.my/academics/elementary'});
+subjectCheck('brighton',['English','Mathematics','Science','Computing'],'https://brighton.edu.my/academics/primary-school/');
+subjectCheck('utama',['English','Mathematics','Science'],'https://www.utama.edu.my/wp-content/uploads/2023/05/SCHOOL-PROSPECTUS-KL-2023-v3.pdf');
+rows.find(s=>s.id==='utama').notes+=' Core primary subjects are supported by the school’s 2023 prospectus; request a current full timetable.';
+subjectCheck('sempurna',['Bahasa Melayu','Mandarin'],'https://srisempurna.edu.my/programmes/primary');
+rows.find(s=>s.id==='sempurna').notes+=' Only these languages are explicitly named; the school says its detailed primary subject list is coming soon.';
+verify('oakbridge','https://oakbridge.edu.my/location-map/','Lot 556, Jalan Subang 3, Taman Perindustrian Subang, 47500 Subang Jaya, Selangor',3.047,101.592,'info@oakbridge.edu.my','General','Address and email read from the live official page footer; search engines omit that footer.');
+for(const id of ['nexus','aism']) rows.find(s=>s.id===id).applicationUrl='https://taylorsschools.com/careers/';
+subjectCheck('columbia',['English','Bahasa Melayu','Mandarin','Mathematics','Science','Computing','Humanities','Art','Music','Physical Education'],'https://columbiaschool.edu.my/');
+subjectCheck('tzuchi',['Mandarin','English','Bahasa Melayu','Humanistic Education'],'https://www.tzuchi.edu.my/education/curriculum.html');
+rows.find(s=>s.id==='tzuchi').notes+=' The official curriculum page names trilingual and humanistic teaching but does not give a complete primary timetable; subject list remains partial.';
+contactCheck('marefat','info@marefat.edu.my','General','https://marefat.edu.my/main/');
+for(const id of ['ucsi-kl','nobel','peninsula']) {const s=rows.find(s=>s.id===id);s.subjects=s.subjects.filter(v=>v!=='Design & Technology');s.subjects.push('Makerspace');}
+rows.find(s=>s.id==='nobel').subjects.push('Technology');
+const subjectResearch = {
+ igbis:['https://igbis.edu.my/elementary/es-pyp/','PYP page explains the programme but does not publish a complete school-specific subject list.'],
+ acmar:['https://acmarschools.com.my/primary-school/','Official primary page describes ages and programme without a readable subject list.'],
+ 'fairview-kl':['https://fairview.edu.my/our-programmes/primary-years-programme/','Official PYP page lists themes rather than a campus-specific primary subject timetable.'],
+ 'fairview-sj':['https://fairview.edu.my/our-programmes/primary-years-programme/','Official PYP page lists themes rather than a campus-specific primary subject timetable.'],
+ cempaka:['https://cempaka.edu.my/','Official site describes the Finnish primary pathway; a school-specific primary subject list remains unconfirmed.'],
+ 'inspiros-klang':['https://inspiros.edu.my/klang/','Klang campus is still described as in its final stages of completion. Puchong subjects have not been assumed to apply.'],
+ axcel:['https://axcel.edu.my/who-we-are/','Primary provision confirmed, but a current official primary subject list was not readable during this review.'],
+ abedeen:['https://abedeen.edu.my/','School also operates a Malaysian national stream; national primary subject lists have not been copied to its international stream.'],
+ beverly:['https://beverly.com.my/bigs-academic/','School academic page identifies primary ages, but full page access timed out during this review.'],
+ canary:['https://canaryis.edu.my/program/Cambridge%20Primary%20School/','Official primary page confirms the programme but no readable school-specific subject list was established.'],
+ taipei:['https://www.cts.edu.my/calendar-28.html','Official primary timetables are linked; a current primary subject transcription remains pending. The 2018 draft has not been treated as current.'],
+ emerald:['https://schooladvisor.my/schools/emerald-gardens-international-school','Listing says Opening Soon; operating status, primary provision and official contact remain unconfirmed.'],
+ 'his-subang':['https://www.hisschools.edu.my/services.html','Official programme page confirms Years 1–6 without a readable primary subject list.'],
+ huaxia:['https://hxis.huaxia.edu.my/','Current site navigation exposes early years and secondary; primary availability and subjects need direct confirmation.'],
+ reed:['https://www.reed.edu.my/','Primary provision is stated but no current official primary subject list was established.'],
+ saint:['https://saint.edu.my/curriculums-2/','Official curriculum page confirms primary provision without naming its primary subjects.'],
+ sasana:['https://sasana.edupage.org/subjects/','School portal lists subjects across all stages without clear primary-only mapping; secondary subjects have not been copied into the primary filter.']
+};
+for(const [id,[url,note]] of Object.entries(subjectResearch)) Object.assign(rows.find(s=>s.id===id),{subjectResearchSource:url,subjectResearchNote:note});
 export const schools=rows;
