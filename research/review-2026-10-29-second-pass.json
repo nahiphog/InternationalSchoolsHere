@@ -1,0 +1,146 @@
+{
+  "reviewed": "2026-10-29",
+  "scope": "Second review of ten unresolved primary subject records and additional recruitment contacts",
+  "subjectOutcomes": [
+    {
+      "id": "fairview-kl",
+      "name": "Fairview International School · Kuala Lumpur",
+      "outcome": "Partial: Music only",
+      "subjects": [
+        "Music"
+      ],
+      "source": "https://fairview.edu.my/our-programmes-cn/primary-years-programme-cn/",
+      "note": "Partial result: the official Chinese-language PYP page explicitly describes Every Child a Musician and learning an orchestral instrument. This is a network PYP programme, not a complete campus timetable. Other primary subjects remain unconfirmed."
+    },
+    {
+      "id": "fairview-sj",
+      "name": "Fairview International School · Subang Jaya",
+      "outcome": "Partial: Music only",
+      "subjects": [
+        "Music"
+      ],
+      "source": "https://fairview.edu.my/our-programmes-cn/primary-years-programme-cn/",
+      "note": "Partial result: the official Chinese-language PYP page explicitly describes Every Child a Musician and learning an orchestral instrument. This is a network PYP programme, not a complete campus timetable. Other primary subjects remain unconfirmed."
+    },
+    {
+      "id": "cempaka",
+      "name": "Cempaka International School · Damansara Heights",
+      "outcome": "Unresolved",
+      "subjects": [],
+      "source": "https://cdh.cempaka.edu.my/primary/learning/",
+      "note": "Second review: official primary learning page and public school pages endpoint still provide no primary subject timetable. Year 7–8 recruitment subjects were excluded. The current /primary/ page has no readable curriculum body."
+    },
+    {
+      "id": "inspiros-klang",
+      "name": "Inspiros International School · Klang",
+      "outcome": "Unresolved",
+      "subjects": [],
+      "source": "https://inspiros.edu.my/klang/",
+      "note": "Second review: Klang campus still describes facilities in final completion. Its Primary navigation resolves to a Puchong student news article rather than a Klang subject list; Puchong subjects have not been copied."
+    },
+    {
+      "id": "beverly",
+      "name": "Beverly International Genius School",
+      "outcome": "Unresolved",
+      "subjects": [],
+      "source": "https://beverly.com.my/bigs-academic/",
+      "note": "Second review: academic page confirms Primary Genius ages 6–11, but does not name primary subjects. A direct repeat fetch timed out; no full subject list or current HR email was established."
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald Gardens International School",
+      "outcome": "Unresolved",
+      "subjects": [],
+      "source": "https://schooladvisor.my/schools/emerald-gardens-international-school",
+      "note": "Second review: directory still says Opening Soon. Employer job advertisements are leads, but no official school curriculum or operating-campus confirmation was established."
+    },
+    {
+      "id": "his-subang",
+      "name": "HIS International School",
+      "outcome": "Unresolved",
+      "subjects": [],
+      "source": "https://www.hisschools.edu.my/services.html",
+      "note": "Second review: official programme page, site navigation and linked admission documents do not establish a primary subject list. HELP International School (his.edu.my) is a different school and its subjects were excluded."
+    },
+    {
+      "id": "huaxia",
+      "name": "Hua Xia International School",
+      "outcome": "Unresolved",
+      "subjects": [],
+      "source": "https://hxis.huaxia.edu.my/",
+      "note": "Second review: official navigation still offers Early Years and Secondary only. A 2019 prospectus surfaced but was not used as evidence of current primary provision or subjects."
+    },
+    {
+      "id": "reed",
+      "name": "Reed International School",
+      "outcome": "Unresolved",
+      "subjects": [],
+      "source": "https://www.reed.edu.my/",
+      "note": "Second review: official Rawang recruitment advert names languages and Global Perspectives without identifying teaching years. It cannot substantiate a primary-only subject list. Main-site direct access failed; Seri Kembangan material was not copied to Rawang."
+    },
+    {
+      "id": "saint",
+      "name": "SAINT International School",
+      "outcome": "Unresolved",
+      "subjects": [],
+      "source": "https://saint.edu.my/curriculums-2/",
+      "note": "Second review: official curriculum, downloads and public pages reviewed. The triangular model combines primary and secondary with arts/technology activities; it does not establish a primary timetable. Broad teacher/internship degree requirements were not treated as taught subjects."
+    }
+  ],
+  "recruitmentUpdates": [
+    {
+      "id": "dwi",
+      "email": "talent@aceedventure.com",
+      "source": "https://sriemas.edu.my/contact-us/",
+      "note": " Group recruitment mailbox: Sri Emas explicitly lists this address under Job Vacancies. ACE EdVenture recruiter posts name Dwi Emas, Sri Emas and MITstem and invite applications for teaching and support roles. Specify your preferred school and primary role; this does not confirm a current campus vacancy. Recruitment corroboration: https://my.linkedin.com/in/melvin-d-silva ."
+    },
+    {
+      "id": "mitstem",
+      "email": "talent@aceedventure.com",
+      "source": "https://sriemas.edu.my/contact-us/",
+      "note": " Group recruitment mailbox: Sri Emas explicitly lists this address under Job Vacancies. ACE EdVenture recruiter posts name Dwi Emas, Sri Emas and MITstem and invite applications for teaching and support roles. Specify your preferred school and primary role; this does not confirm a current campus vacancy. Recruitment corroboration: https://my.linkedin.com/in/melvin-d-silva ."
+    },
+    {
+      "id": "sriemas",
+      "email": "talent@aceedventure.com",
+      "source": "https://sriemas.edu.my/contact-us/",
+      "note": " Group recruitment mailbox: Sri Emas explicitly lists this address under Job Vacancies. ACE EdVenture recruiter posts name Dwi Emas, Sri Emas and MITstem and invite applications for teaching and support roles. Specify your preferred school and primary role; this does not confirm a current campus vacancy. Recruitment corroboration: https://my.linkedin.com/in/melvin-d-silva ."
+    },
+    {
+      "id": "kdu-kd",
+      "email": "hr@srikdu.edu.my",
+      "source": "https://my.linkedin.com/in/sybil-lee-238a1069",
+      "note": "General inquiry address; request the correct recruitment channel before sending a CV. Published in a Sri KDU/XCL employee recruitment post for Kota Damansara international-school teachers, displayed as about one year old when checked. Confirm the current channel; follow the current working-with-us page and complete its application requirements. The older intlhr address was not substituted from a historical document."
+    }
+  ],
+  "notPromoted": [
+    {
+      "school": "Nexus",
+      "email": "hr.general@nexus.edu.my",
+      "source": "https://www.nexus.edu.my/sites/default/files/jobs/eal_teacher_maternity_cover-1.pdf",
+      "reason": "Official evidence relates to a 2019–20 vacancy; no newer first-party confirmation located."
+    },
+    {
+      "school": "AISM",
+      "email": "hr@aism.edu.my",
+      "reason": "Only a third-party reproduction of a January 2017 vacancy was located."
+    },
+    {
+      "school": "Straits Rawang",
+      "email": "m.jeevitha@rawangsisgroup.edu.my",
+      "source": "https://www.tes.com/jobs/vacancy/primary-class-teacher-with-potential-additional-leadership-role-malaysia-1937857",
+      "reason": "Employer advert is from 2023; current team page does not corroborate the named HR contact."
+    },
+    {
+      "school": "Mutiara",
+      "email": "recruitment@migs.edu.my",
+      "reason": "Only historical 2019 employer adverts and a removed 2021 PDF supported the email. Current careers form remains preferred."
+    }
+  ],
+  "limitations": [
+    "Fairview entries establish instrumental Music, not complete primary subject timetables.",
+    "ACE mailbox is shared across a school group; specify school/campus and role.",
+    "Sri KDU Kota Damansara email comes from an employee recruitment post about a year old; use current vacancy/application instructions.",
+    "No mailbox deliverability was tested. No subject was inferred solely from a curriculum brand or secondary teaching role."
+  ]
+}

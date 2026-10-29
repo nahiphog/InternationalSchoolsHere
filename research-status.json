@@ -1,12 +1,12 @@
 {
-  "reviewed": "2026-10-28",
+  "reviewed": "2026-10-29",
   "coverage": {
     "campusRecords": 115,
     "primaryCampuses": 107,
     "officialLocationSources": 114,
-    "publicEmails": 106,
-    "recruitmentOrHrEmails": 42,
-    "primarySubjectLists": 90
+    "publicEmails": 107,
+    "recruitmentOrHrEmails": 51,
+    "primarySubjectLists": 99
   },
   "limitations": [
     "Subject lists may be partial and may vary by year group.",
@@ -16,106 +16,52 @@
   ],
   "primarySubjectsUnresolved": [
     {
-      "id": "igbis",
-      "name": "IGB International School",
-      "source": "https://igbis.edu.my/elementary/es-pyp/",
-      "reason": "PYP page explains the programme but does not publish a complete school-specific subject list."
-    },
-    {
-      "id": "acmar",
-      "name": "Acmar International School",
-      "source": "https://acmarschools.com.my/primary-school/",
-      "reason": "Official primary page describes ages and programme without a readable subject list."
-    },
-    {
-      "id": "fairview-kl",
-      "name": "Fairview International School · Kuala Lumpur",
-      "source": "https://fairview.edu.my/our-programmes/primary-years-programme/",
-      "reason": "Official PYP page lists themes rather than a campus-specific primary subject timetable."
-    },
-    {
-      "id": "fairview-sj",
-      "name": "Fairview International School · Subang Jaya",
-      "source": "https://fairview.edu.my/our-programmes/primary-years-programme/",
-      "reason": "Official PYP page lists themes rather than a campus-specific primary subject timetable."
-    },
-    {
       "id": "cempaka",
       "name": "Cempaka International School · Damansara Heights",
-      "source": "https://cempaka.edu.my/",
-      "reason": "Official site describes the Finnish primary pathway; a school-specific primary subject list remains unconfirmed."
+      "source": "https://cdh.cempaka.edu.my/primary/learning/",
+      "reason": "Second review: official primary learning page and public school pages endpoint still provide no primary subject timetable. Year 7–8 recruitment subjects were excluded. The current /primary/ page has no readable curriculum body."
     },
     {
       "id": "inspiros-klang",
       "name": "Inspiros International School · Klang",
       "source": "https://inspiros.edu.my/klang/",
-      "reason": "Klang campus is still described as in its final stages of completion. Puchong subjects have not been assumed to apply."
-    },
-    {
-      "id": "axcel",
-      "name": "Axcel International School",
-      "source": "https://axcel.edu.my/who-we-are/",
-      "reason": "Primary provision confirmed, but a current official primary subject list was not readable during this review."
-    },
-    {
-      "id": "abedeen",
-      "name": "Abedeen International School",
-      "source": "https://abedeen.edu.my/",
-      "reason": "School also operates a Malaysian national stream; national primary subject lists have not been copied to its international stream."
+      "reason": "Second review: Klang campus still describes facilities in final completion. Its Primary navigation resolves to a Puchong student news article rather than a Klang subject list; Puchong subjects have not been copied."
     },
     {
       "id": "beverly",
       "name": "Beverly International Genius School",
       "source": "https://beverly.com.my/bigs-academic/",
-      "reason": "School academic page identifies primary ages, but full page access timed out during this review."
-    },
-    {
-      "id": "canary",
-      "name": "Canary International School",
-      "source": "https://canaryis.edu.my/program/Cambridge%20Primary%20School/",
-      "reason": "Official primary page confirms the programme but no readable school-specific subject list was established."
-    },
-    {
-      "id": "taipei",
-      "name": "Chinese Taipei School",
-      "source": "https://www.cts.edu.my/calendar-28.html",
-      "reason": "Official primary timetables are linked; a current primary subject transcription remains pending. The 2018 draft has not been treated as current."
+      "reason": "Second review: academic page confirms Primary Genius ages 6–11, but does not name primary subjects. A direct repeat fetch timed out; no full subject list or current HR email was established."
     },
     {
       "id": "emerald",
       "name": "Emerald Gardens International School",
       "source": "https://schooladvisor.my/schools/emerald-gardens-international-school",
-      "reason": "Listing says Opening Soon; operating status, primary provision and official contact remain unconfirmed."
+      "reason": "Second review: directory still says Opening Soon. Employer job advertisements are leads, but no official school curriculum or operating-campus confirmation was established."
     },
     {
       "id": "his-subang",
       "name": "HIS International School",
       "source": "https://www.hisschools.edu.my/services.html",
-      "reason": "Official programme page confirms Years 1–6 without a readable primary subject list."
+      "reason": "Second review: official programme page, site navigation and linked admission documents do not establish a primary subject list. HELP International School (his.edu.my) is a different school and its subjects were excluded."
     },
     {
       "id": "huaxia",
       "name": "Hua Xia International School",
       "source": "https://hxis.huaxia.edu.my/",
-      "reason": "Current site navigation exposes early years and secondary; primary availability and subjects need direct confirmation."
+      "reason": "Second review: official navigation still offers Early Years and Secondary only. A 2019 prospectus surfaced but was not used as evidence of current primary provision or subjects."
     },
     {
       "id": "reed",
       "name": "Reed International School",
       "source": "https://www.reed.edu.my/",
-      "reason": "Primary provision is stated but no current official primary subject list was established."
+      "reason": "Second review: official Rawang recruitment advert names languages and Global Perspectives without identifying teaching years. It cannot substantiate a primary-only subject list. Main-site direct access failed; Seri Kembangan material was not copied to Rawang."
     },
     {
       "id": "saint",
       "name": "SAINT International School",
       "source": "https://saint.edu.my/curriculums-2/",
-      "reason": "Official curriculum page confirms primary provision without naming its primary subjects."
-    },
-    {
-      "id": "sasana",
-      "name": "Sasana International School",
-      "source": "https://sasana.edupage.org/subjects/",
-      "reason": "School portal lists subjects across all stages without clear primary-only mapping; secondary subjects have not been copied into the primary filter."
+      "reason": "Second review: official curriculum, downloads and public pages reviewed. The triangular model combines primary and secondary with arts/technology activities; it does not establish a primary timetable. Broad teacher/internship degree requirements were not treated as taught subjects."
     }
   ],
   "emailUnresolved": [
@@ -144,21 +90,21 @@
       "id": "tenby-sep",
       "name": "Tenby International School · Setia Eco Park",
       "source": "https://www.tenby.edu.my/setia-eco-park/careers",
-      "applicationUrl": null,
+      "applicationUrl": "https://www.tenby.edu.my/setia-eco-park/careers",
       "notes": "Use the official careers page; no current public recruitment email established."
     },
     {
       "id": "tenby-seh",
       "name": "Tenby International School · Setia EcoHill",
       "source": "https://www.tenby.edu.my/setia-ecohill/careers",
-      "applicationUrl": null,
+      "applicationUrl": "https://www.tenby.edu.my/setia-ecohill/careers",
       "notes": ""
     },
     {
       "id": "inspiros-klang",
       "name": "Inspiros International School · Klang",
       "source": "https://inspiros.edu.my/",
-      "applicationUrl": null,
+      "applicationUrl": "https://inspiros.edu.my/careers/",
       "notes": "Official campus page says the main building and key facilities are in their final stages of completion. Confirm opening date, current teaching location and hiring availability before visiting."
     },
     {
@@ -174,13 +120,6 @@
       "source": "https://gais.edu.my/contact-global-ark-international-school-new/",
       "applicationUrl": null,
       "notes": ""
-    },
-    {
-      "id": "beaconhouse",
-      "name": "Beaconhouse Sri Inai International School",
-      "source": "https://beaconhouse.edu.my/career/",
-      "applicationUrl": "https://beaconhouse.edu.my/career/",
-      "notes": "Official career page has vacancies and application details; no readable recruitment email established."
     }
   ],
   "locationUnresolved": [
@@ -189,6 +128,423 @@
       "name": "Emerald Gardens International School",
       "source": "https://schooladvisor.my/schools/emerald-gardens-international-school",
       "notes": "SchoolAdvisor describes this school as Opening Soon at Lot 6, SS6, Jalan Perbandaran, Kelana Jaya. Operating status, primary provision and official contact remain unconfirmed. Do not treat as an established employer."
+    }
+  ],
+  "recruitmentOrHrEmailUnresolved": [
+    {
+      "id": "garden",
+      "name": "Garden International School",
+      "fallbackEmail": null,
+      "source": "https://www.gardenschool.edu.my/about-gis/working-at-gis/",
+      "applicationUrl": "https://www.gardenschool.edu.my/about-gis/job-opportunities/"
+    },
+    {
+      "id": "nexus",
+      "name": "Nexus International School Malaysia",
+      "fallbackEmail": null,
+      "source": "https://taylorsschools.com/careers/",
+      "applicationUrl": "https://taylorsschools.com/careers/"
+    },
+    {
+      "id": "aism",
+      "name": "Australian International School Malaysia",
+      "fallbackEmail": null,
+      "source": "https://taylorsschools.com/careers/",
+      "applicationUrl": "https://taylorsschools.com/careers/"
+    },
+    {
+      "id": "kdu-klang",
+      "name": "Sri KDU International School · Klang",
+      "fallbackEmail": "info.klg@srikdu.edu.my",
+      "source": "https://srikdu.edu.my/homepage/",
+      "applicationUrl": null
+    },
+    {
+      "id": "aps",
+      "name": "Asia Pacific International School",
+      "fallbackEmail": "admissions@apschools.edu.my",
+      "source": "https://www.apschools.edu.my/contact-us",
+      "applicationUrl": "https://www.apschools.edu.my/careers"
+    },
+    {
+      "id": "havil",
+      "name": "Havil International School",
+      "fallbackEmail": "info@havil.edu.my",
+      "source": "https://havil.edu.my/contact/",
+      "applicationUrl": null
+    },
+    {
+      "id": "nobel",
+      "name": "Nobel International School",
+      "fallbackEmail": "enquiry@nobel.com.my",
+      "source": "https://nobel.edu.my/academics/elementary",
+      "applicationUrl": "https://nobel.edu.my/career"
+    },
+    {
+      "id": "mutiara",
+      "name": "Mutiara International Grammar School",
+      "fallbackEmail": "admissions@migs.edu.my",
+      "source": "https://migs.edu.my/contact-us/",
+      "applicationUrl": "https://migs.edu.my/contact-us/"
+    },
+    {
+      "id": "reigate",
+      "name": "Reigate Grammar School Kuala Lumpur",
+      "fallbackEmail": "office@reigategrammar.edu.my",
+      "source": "https://www.reigategrammar.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "straits",
+      "name": "Straits International School · Rawang",
+      "fallbackEmail": "info@rawangsisgroup.edu.my",
+      "source": "https://www.rawangsisgroup.edu.my/contact-us",
+      "applicationUrl": "https://www.rawangsisgroup.edu.my/careers"
+    },
+    {
+      "id": "peninsula",
+      "name": "Peninsula International School Australia",
+      "fallbackEmail": "enquiry@peninsula.edu.my",
+      "source": "https://peninsula.edu.my/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "dskl",
+      "name": "German School Kuala Lumpur",
+      "fallbackEmail": "office@dskl.edu.my",
+      "source": "https://www.dskl.edu.my/en/school/contact/",
+      "applicationUrl": "https://www.dskl.edu.my/en/vacancies/"
+    },
+    {
+      "id": "tenby-sep",
+      "name": "Tenby International School · Setia Eco Park",
+      "fallbackEmail": null,
+      "source": "https://www.tenby.edu.my/setia-eco-park/careers",
+      "applicationUrl": "https://www.tenby.edu.my/setia-eco-park/careers"
+    },
+    {
+      "id": "tenby-seh",
+      "name": "Tenby International School · Setia EcoHill",
+      "fallbackEmail": null,
+      "source": "https://www.tenby.edu.my/setia-ecohill/careers",
+      "applicationUrl": "https://www.tenby.edu.my/setia-ecohill/careers"
+    },
+    {
+      "id": "tenby-ta",
+      "name": "Tenby International School · Tropicana Aman",
+      "fallbackEmail": "service.tta.admissions@tenby.edu.my",
+      "source": "https://www.tenby.edu.my/tropicana-aman/contact-us",
+      "applicationUrl": "https://www.tenby.edu.my/tropicana-aman/careers"
+    },
+    {
+      "id": "tis-kl",
+      "name": "Taylor’s International School · Kuala Lumpur",
+      "fallbackEmail": "admissions@kl.tis.edu.my",
+      "source": "https://www.tis.edu.my/clients/asset_ED91B08D-2CD1-4186-8516-850868CA27D8/contentms/img/pdf/TIS_Prospectus_2024.pdf",
+      "applicationUrl": null
+    },
+    {
+      "id": "tis-pc",
+      "name": "Taylor’s International School · Puchong",
+      "fallbackEmail": "admissions@pc.tis.edu.my",
+      "source": "https://www.tis.edu.my/clients/asset_ED91B08D-2CD1-4186-8516-850868CA27D8/contentms/img/pdf/TIS_Prospectus_2024.pdf",
+      "applicationUrl": null
+    },
+    {
+      "id": "sunway",
+      "name": "Sunway International School · Sunway City KL",
+      "fallbackEmail": "siskl.admissions@sunway.edu.my",
+      "source": "https://sistalk.sunwayschools.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "idrissi-bj",
+      "name": "IDRISSI International School · Bukit Jelutong",
+      "fallbackEmail": "enquiry@idrissischool.edu.my",
+      "source": "https://www.idrissischool.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "inspiros-pc",
+      "name": "Inspiros International School · Puchong",
+      "fallbackEmail": "admissions@inspiros.edu.my",
+      "source": "https://promo.inspiros.edu.my/",
+      "applicationUrl": "https://inspiros.edu.my/puchong-careers/"
+    },
+    {
+      "id": "inspiros-klang",
+      "name": "Inspiros International School · Klang",
+      "fallbackEmail": null,
+      "source": "https://inspiros.edu.my/",
+      "applicationUrl": "https://inspiros.edu.my/careers/"
+    },
+    {
+      "id": "maz-pj",
+      "name": "MAZ International School · Petaling Jaya",
+      "fallbackEmail": "pj@mazinternational.edu.my",
+      "source": "https://mazinternational.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "maz-sa",
+      "name": "MAZ International School · Shah Alam",
+      "fallbackEmail": "info@mazinternational.edu.my",
+      "source": "https://mazinternational.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "giis",
+      "name": "Global Indian International School · Primary",
+      "fallbackEmail": "admissions@my.globalindianschool.org",
+      "source": "https://mygiis.org/careers/contactus.aspx",
+      "applicationUrl": null
+    },
+    {
+      "id": "abedeen",
+      "name": "Abedeen International School",
+      "fallbackEmail": "admin@abedeen.edu.my",
+      "source": "https://abedeen.edu.my/contact",
+      "applicationUrl": null
+    },
+    {
+      "id": "alhamra",
+      "name": "Al-Hamra International School",
+      "fallbackEmail": "enquiries@alhamra.my",
+      "source": "https://alhamra.edu.my/application-procedure/",
+      "applicationUrl": null
+    },
+    {
+      "id": "beverly",
+      "name": "Beverly International Genius School",
+      "fallbackEmail": "write2us@beverly.edu.my",
+      "source": "https://beverly.com.my/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "brainy",
+      "name": "Brainy Bunch International Islamic Montessori School",
+      "fallbackEmail": "registrar@brainybunch.com",
+      "source": "https://bbis.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "canary",
+      "name": "Canary International School",
+      "fallbackEmail": "enquiry.canaryis@kslkl.my",
+      "source": "https://canaryis.edu.my/hiring/",
+      "applicationUrl": "https://canaryis.edu.my/hiring/"
+    },
+    {
+      "id": "taipei",
+      "name": "Chinese Taipei School",
+      "fallbackEmail": "admin@cts.edu.my",
+      "source": "https://www.cts.edu.my/upload_files/總務處/113-2%20吉隆坡臺灣學校%20%20總務公告%20暑期上班時間.pdf",
+      "applicationUrl": null
+    },
+    {
+      "id": "columbia",
+      "name": "Columbia International School",
+      "fallbackEmail": "cis@columbiaschool.edu.my",
+      "source": "https://columbiaschool.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald Gardens International School",
+      "fallbackEmail": null,
+      "source": "https://educationdestinationmalaysia.com/schools/selangor?page=3",
+      "applicationUrl": null
+    },
+    {
+      "id": "globalmodern",
+      "name": "Global Modern International School",
+      "fallbackEmail": "info@gmis-edu.com",
+      "source": "https://www.gmis-edu.com/contact",
+      "applicationUrl": null
+    },
+    {
+      "id": "gots",
+      "name": "Global Oak Tree Scholars International School (GOTS)",
+      "fallbackEmail": "enquiry@gots.edu.my",
+      "source": "https://gots.edu.my/careers/",
+      "applicationUrl": null
+    },
+    {
+      "id": "greenview-sa",
+      "name": "Greenview Islamic International School · Shah Alam",
+      "fallbackEmail": "feedback@greenview.edu.my",
+      "source": "https://greenviewiis.com/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "greenview-bangi",
+      "name": "Greenview Islamic International School · Bangi",
+      "fallbackEmail": "feedback@greenview.edu.my",
+      "source": "https://greenviewiis.com/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "harvest",
+      "name": "Harvest International School",
+      "fallbackEmail": "enquiry@harvestintsch.edu.my",
+      "source": "https://www.harvestintsch.edu.my/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "his-subang",
+      "name": "HIS International School",
+      "fallbackEmail": "admin@hisschools.edu.my",
+      "source": "https://www.hisschools.edu.my/contact.html",
+      "applicationUrl": null
+    },
+    {
+      "id": "huaxia",
+      "name": "Hua Xia International School",
+      "fallbackEmail": "enquiry@huaxia.edu.my",
+      "source": "https://hxis.huaxia.edu.my/contact/",
+      "applicationUrl": null
+    },
+    {
+      "id": "icons",
+      "name": "Icons International School",
+      "fallbackEmail": "admin@icons.edu.my",
+      "source": "https://icons.edu.my/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "oakbridge",
+      "name": "Oakbridge International School",
+      "fallbackEmail": "info@oakbridge.edu.my",
+      "source": "https://oakbridge.edu.my/location-map/",
+      "applicationUrl": null
+    },
+    {
+      "id": "oxburgh",
+      "name": "Oxburgh International School",
+      "fallbackEmail": "admin@oxburgh.edu.my",
+      "source": "https://oxburgh.edu.my/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "reed",
+      "name": "Reed International School",
+      "fallbackEmail": "rawang@reed.edu.my",
+      "source": "https://www.reed.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "regent",
+      "name": "Regent International School · Klang",
+      "fallbackEmail": "admissions@regent.edu.my",
+      "source": "https://adm.regent.edu.my/regent-malaysia",
+      "applicationUrl": "https://careers.globalschools.com/"
+    },
+    {
+      "id": "sasana",
+      "name": "Sasana International School",
+      "fallbackEmail": "contact@sasana.edu.my",
+      "source": "https://sasana.edupage.org/contact/",
+      "applicationUrl": "https://sasana.edu.my/careers/"
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria International School",
+      "fallbackEmail": "admin@victoria.edu.my",
+      "source": "https://victoria.edu.my/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "wisdomspring",
+      "name": "Wisdom Spring International School",
+      "fallbackEmail": "info@wisdomspring.edu.my",
+      "source": "https://wisdomspring.edu.my/",
+      "applicationUrl": "https://wisdomspring.edu.my/index.php?q=/modules/Staff/applicationForm_jobOpenings_view.php"
+    },
+    {
+      "id": "ais",
+      "name": "AIS International School",
+      "fallbackEmail": "front.desk@ais-kl.edu.my",
+      "source": "https://ais-kl.edu.my/contact-us/",
+      "applicationUrl": null
+    },
+    {
+      "id": "aspiration",
+      "name": "Aspiration International School · Primary",
+      "fallbackEmail": "enquiries@primary.aspirationis.edu.my",
+      "source": "https://www.aspirationis.edu.my/contact-us",
+      "applicationUrl": null
+    },
+    {
+      "id": "hibiscus",
+      "name": "Hibiscus International School",
+      "fallbackEmail": "inquiries@hibiscus.edu.my",
+      "source": "https://hibiscus.edu.my/careers/",
+      "applicationUrl": "https://hibiscus.edu.my/careers/"
+    },
+    {
+      "id": "kys",
+      "name": "KYS KL East International School",
+      "fallbackEmail": "info@kyskleast.edu.my",
+      "source": "https://kyskleast.edu.my/locate-us",
+      "applicationUrl": null
+    },
+    {
+      "id": "marefat",
+      "name": "Marefat International School",
+      "fallbackEmail": "info@marefat.edu.my",
+      "source": "https://marefat.edu.my/main/",
+      "applicationUrl": null
+    },
+    {
+      "id": "dasmesh",
+      "name": "Sri Dasmesh International School",
+      "fallbackEmail": "admin@sridasmesh.edu.my",
+      "source": "https://sridasmesh.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "sempurna",
+      "name": "Sri Sempurna International School",
+      "fallbackEmail": "enquiry@srisempurna.edu.my",
+      "source": "https://srisempurna.edu.my/contact",
+      "applicationUrl": "https://srisempurna.edu.my/careers"
+    },
+    {
+      "id": "utama",
+      "name": "Utama International School · Kuala Lumpur",
+      "fallbackEmail": "info@sriutama.edu.my",
+      "source": "https://utama.edu.my/",
+      "applicationUrl": null
+    },
+    {
+      "id": "maverick-primary",
+      "name": "Maverick International Primary School",
+      "fallbackEmail": "admin@maverick.edu.my",
+      "source": "https://www.maverick.edu.my/Primary/contactus.php",
+      "applicationUrl": "https://www.maverick.edu.my/Primary/career.php"
+    }
+  ],
+  "latestReview": "research/review-2026-10-29-second-pass.json",
+  "primarySubjectsPartiallyResolved": [
+    {
+      "id": "fairview-kl",
+      "name": "Fairview International School · Kuala Lumpur",
+      "outcome": "Partial: Music only",
+      "subjects": [
+        "Music"
+      ],
+      "source": "https://fairview.edu.my/our-programmes-cn/primary-years-programme-cn/",
+      "note": "Partial result: the official Chinese-language PYP page explicitly describes Every Child a Musician and learning an orchestral instrument. This is a network PYP programme, not a complete campus timetable. Other primary subjects remain unconfirmed."
+    },
+    {
+      "id": "fairview-sj",
+      "name": "Fairview International School · Subang Jaya",
+      "outcome": "Partial: Music only",
+      "subjects": [
+        "Music"
+      ],
+      "source": "https://fairview.edu.my/our-programmes-cn/primary-years-programme-cn/",
+      "note": "Partial result: the official Chinese-language PYP page explicitly describes Every Child a Musician and learning an orchestral instrument. This is a network PYP programme, not a complete campus timetable. Other primary subjects remain unconfirmed."
     }
   ]
 }

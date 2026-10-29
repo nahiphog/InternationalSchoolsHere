@@ -1,0 +1,645 @@
+{
+  "reviewed": "2026-10-29",
+  "method": "Official school pages, linked careers pages, published school timetables and handbooks. Search-index text was used where the official server could not be downloaded. Published emails were not mailbox-tested.",
+  "newPrimarySubjectLists": [
+    "abedeen",
+    "axcel",
+    "acmar",
+    "canary",
+    "taipei",
+    "sasana",
+    "igbis"
+  ],
+  "expandedPrimarySubjectLists": [
+    "bskl"
+  ],
+  "newRecruitmentOrHrContacts": [
+    {
+      "id": "kdu-sj",
+      "email": "nurhidayah.m@srikdu.edu.my",
+      "kind": "HR",
+      "source": "https://srikdu.edu.my/subang-jaya/administration-team/",
+      "notes": "Official administration page lists Nurhidayah Mohamad Mokhtar as Human Resources Executive. HR INQUIRIES ONLY: the official working-with-us page explicitly says not to email CVs/resumes to HR or the Principal. Apply through the vacancy links instead: https://srikdu.edu.my/subang-jaya/working-with-us/ ."
+    },
+    {
+      "id": "bskl",
+      "email": "noorazah.mokhtar@britishschool.edu.my",
+      "kind": "HR",
+      "source": "https://www.nordangliaeducation.com/bskl-kuala-lumpur/-/media/bskl-kuala-lumpur/parent-essentials/handbooks/bskl-primary-parent-handbook-25-26.pdf?hash=B8B9B7005BC507A355E3A77FFB004BA8&rev=0cbbe4da7d1c433f9f8f73f05eef9de7",
+      "notes": "Current primary page names core subjects and KS1/KS2 learning areas. Mandarin or Spanish are alternatives; Bahasa Melayu is for Malaysian students. HR inquiry contact is named in the official 2025–26 primary handbook; confirm the current contact before sending personal documents. Use the school careers portal for advertised vacancies."
+    },
+    {
+      "id": "cempaka",
+      "email": "careers@cempaka.edu.my",
+      "kind": "Recruitment",
+      "source": "https://cempaka.edu.my/",
+      "notes": "The official school footer links Careers at Cempaka directly to this email. The Finnish-curriculum recruitment page says the 2026–27 recruitment round has ended; inquire about future opportunities."
+    },
+    {
+      "id": "saint",
+      "email": "hr@saint.edu.my",
+      "kind": "HR",
+      "source": "https://saint.edu.my/career/",
+      "notes": "Official careers page invites primary and secondary teaching inquiries to this HR email. The published address was decoded from the page’s email protection."
+    },
+    {
+      "id": "primrose",
+      "email": "info@primrosehillactivelearning.org",
+      "kind": "Recruitment",
+      "source": "https://www.primrosehillactivelearning.co.uk/join-us",
+      "notes": "Official careers page invites applicants, including primary teachers, to email this address about training and the interview process. The page still refers to September 2025; inquire about current opportunities."
+    },
+    {
+      "id": "beaconhouse",
+      "email": "careers@beaconhouse.edu.my",
+      "kind": "Recruitment",
+      "source": "https://beaconhousesriinai.edu.my/work-with-us/",
+      "notes": "Official Sri Inai page asks applicants to send a CV and cover letter addressed to the Head of HR at this group careers email."
+    }
+  ],
+  "locationsChecked": [
+    {
+      "id": "igbis",
+      "address": "Jalan Sierramas Utama, Sierramas, 47000 Sungai Buloh, Selangor",
+      "source": "https://igbis.edu.my/contact-us/"
+    },
+    {
+      "id": "acmar",
+      "address": "PT 21156, Persiaran Rajawali, Bandar Baru Klang, 41150 Klang, Selangor",
+      "source": "https://campaign.acmarschools.com.my/"
+    },
+    {
+      "id": "cempaka",
+      "address": "19 Jalan Setiabakti Satu, Damansara Heights, 50490 Kuala Lumpur",
+      "source": "https://cempaka.edu.my/"
+    },
+    {
+      "id": "axcel",
+      "address": "8G Komersial Casa Tropika, Jalan Bunga Raya, 47100 Puchong, Selangor",
+      "source": "https://axcel.edu.my/primary-school/"
+    },
+    {
+      "id": "beverly",
+      "address": "Persiaran Semarak Api, Cyber 4, 63000 Cyberjaya, Selangor",
+      "source": "https://beverly.com.my/bigs-academic/"
+    },
+    {
+      "id": "canary",
+      "address": "Lot 4M01, Fourth Floor (Mezzanine), with reception at Ground Floor, KSL Esplanade Mall, 1 Persiaran Bestari 2/KS09, Bandar Bestari, 41200 Klang, Selangor",
+      "source": "https://canaryis.edu.my/program/Cambridge%20Primary%20School/"
+    },
+    {
+      "id": "taipei",
+      "address": "1 Persiaran Sungai Selangor, Bukit Rimau, Seksyen 32, 40460 Shah Alam, Selangor",
+      "source": "https://www.cts.edu.my/calendar-28.html"
+    },
+    {
+      "id": "sasana",
+      "address": "40-G Jalan Hijau 5/4, Pinggiran Lembah Hijau, Bandar Tasik Puteri, 48020 Rawang, Selangor",
+      "source": "https://sasana.edu.my/"
+    },
+    {
+      "id": "beaconhouse",
+      "address": "Lot 314 Jalan Jenjarum, off Jalan SS23/6, Taman SEA, 47400 Petaling Jaya, Selangor",
+      "source": "https://beaconhousesriinai.edu.my/work-with-us/"
+    }
+  ],
+  "contactReview": [
+    {
+      "id": "kdu-klang",
+      "pages": [
+        "https://srikdu.edu.my/homepage/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "kdu-kd",
+      "pages": [
+        "https://srikdu.edu.my/homepage/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "kdu-sj",
+      "pages": [
+        "https://srikdu.edu.my/subang-jaya/enquiries/"
+      ],
+      "outcome": "New published recruitment/HR contact established; see record source."
+    },
+    {
+      "id": "garden",
+      "pages": [
+        "https://www.gardenschool.edu.my/",
+        "https://www.gardenschool.edu.my/about-gis/working-at-gis/",
+        "https://www.gardenschool.edu.my/about-gis/working-at-gis/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "nobel",
+      "pages": [
+        "https://nobel.edu.my/",
+        "https://nobel.edu.my/career"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "bskl",
+      "pages": [
+        "https://www.nordangliaeducation.com/bskl-kuala-lumpur/campus",
+        "https://www.nordangliaeducation.com/bskl-kuala-lumpur/careers"
+      ],
+      "outcome": "New published recruitment/HR contact established; see record source."
+    },
+    {
+      "id": "aps",
+      "pages": [
+        "https://www.apschools.edu.my/contact-us",
+        "https://www.apschools.edu.my/careers"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "mutiara",
+      "pages": [
+        "https://migs.edu.my/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "straits",
+      "pages": [
+        "https://www.rawangsisgroup.edu.my/contact-us",
+        "https://www.rawangsisgroup.edu.my/careers"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "havil",
+      "pages": [
+        "https://havil.edu.my/contact/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "peninsula",
+      "pages": [
+        "https://peninsula.edu.my/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "reigate",
+      "pages": [
+        "https://www.reigategrammar.edu.my/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "cempaka",
+      "pages": [
+        "https://cempaka.edu.my/"
+      ],
+      "outcome": "New published recruitment/HR contact established; see record source."
+    },
+    {
+      "id": "tenby-seh",
+      "pages": [
+        "https://www.tenby.edu.my/setia-ecohill/contact-us",
+        "https://www.tenby.edu.my/setia-ecohill/careers"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "aism",
+      "pages": [
+        "https://aism.edu.my/contact-us",
+        "https://taylorsschools.com/careers/",
+        "https://aism.edu.my/about-us/job-opportunities/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "nexus",
+      "pages": [
+        "https://www.nexus.edu.my/contact-us",
+        "https://taylorsschools.com/careers/",
+        "https://www.nexus.edu.my/about-nexus/job-opportunities/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "tis-kl",
+      "pages": [
+        "https://www.tis.edu.my/our-community/contact-us/",
+        "https://www.tis.edu.my/about-tis/job-opportunities/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "dskl",
+      "pages": [
+        "https://www.dskl.edu.my/en/school/contact/",
+        "https://www.dskl.edu.my/en/school/secondary-school-i-ii/higher-education-careers-advisory-service/",
+        "https://www.dskl.edu.my/en/vacancies/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "tis-pc",
+      "pages": [
+        "https://www.tis.edu.my/our-community/contact-us/",
+        "https://www.tis.edu.my/about-tis/job-opportunities/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "tenby-sep",
+      "pages": [
+        "https://www.tenby.edu.my/setia-eco-park/contact-us",
+        "https://www.tenby.edu.my/setia-eco-park/careers"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "tenby-ta",
+      "pages": [
+        "https://www.tenby.edu.my/tropicana-aman/contact-us",
+        "https://www.tenby.edu.my/tropicana-aman/careers"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "sunway",
+      "pages": [
+        "https://sunwayschools.edu.my/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "inspiros-klang",
+      "pages": [
+        "https://inspiros.edu.my/",
+        "https://inspiros.edu.my/careers/",
+        "https://inspiros.edu.my/puchong-careers/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "dwi",
+      "pages": [
+        "https://dwiemas.edu.my/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "inspiros-pc",
+      "pages": [
+        "https://inspiros.edu.my/",
+        "https://inspiros.edu.my/careers/",
+        "https://inspiros.edu.my/puchong-careers/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "giis",
+      "pages": [
+        "https://mygiis.org/careers/contactus.aspx"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "abedeen",
+      "pages": [
+        "https://abedeen.edu.my/contact"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "beverly",
+      "pages": [
+        "https://beverly.com.my/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "canary",
+      "pages": [
+        "https://canaryis.edu.my/contact-us/",
+        "https://canaryis.edu.my/hiring/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "taipei",
+      "pages": [
+        "https://www.cts.edu.my/directors.htm"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "columbia",
+      "pages": [
+        "https://columbiaschool.edu.my/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "globalmodern",
+      "pages": [
+        "https://www.gmis-edu.com/contact"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "maz-pj",
+      "pages": [
+        "https://mazinternational.edu.my/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "brainy",
+      "pages": [
+        "https://bbis.edu.my/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "idrissi-bj",
+      "pages": [
+        "https://www.idrissischool.edu.my/",
+        "https://www.idrissischool.edu.my/career/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "maz-sa",
+      "pages": [
+        "https://mazinternational.edu.my/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "his-subang",
+      "pages": [
+        "https://www.hisschools.edu.my/contact.html"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "gots",
+      "pages": [
+        "https://gots.edu.my/careers/",
+        "https://gots.edu.my/careers/",
+        "https://gots.edu.my/zh/careers/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "icons",
+      "pages": [
+        "https://icons.edu.my/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "mitstem",
+      "pages": [],
+      "outcome": "Direct fetch failed: fetch failed"
+    },
+    {
+      "id": "huaxia",
+      "pages": [
+        "https://hxis.huaxia.edu.my/contact/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "oakbridge",
+      "pages": [
+        "https://oakbridge.edu.my/location-map/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "reed",
+      "pages": [],
+      "outcome": "Direct fetch failed: fetch failed"
+    },
+    {
+      "id": "regent",
+      "pages": [
+        "https://regent.edu.my/contact-us/",
+        "https://careers.globalschools.com/",
+        "https://careers.globalschools.com/regent"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "saint",
+      "pages": [
+        "https://saint.edu.my/",
+        "https://saint.edu.my/career/"
+      ],
+      "outcome": "New published recruitment/HR contact established; see record source."
+    },
+    {
+      "id": "sasana",
+      "pages": [
+        "https://sasana.edupage.org/contact/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "greenview-sa",
+      "pages": [
+        "https://greenviewiis.com/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "greenview-bangi",
+      "pages": [
+        "https://greenviewiis.com/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "wisdomspring",
+      "pages": [
+        "https://wisdomspring.edu.my/",
+        "https://wisdomspring.edu.my/index.php?q=/modules/Staff/applicationForm_jobOpenings_view.php"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "oxburgh",
+      "pages": [
+        "https://oxburgh.edu.my/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "aspiration",
+      "pages": [
+        "https://www.aspirationis.edu.my/contact-us"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "kys",
+      "pages": [],
+      "outcome": "Direct fetch failed: fetch failed"
+    },
+    {
+      "id": "marefat",
+      "pages": [
+        "https://marefat.edu.my/main/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "alhamra",
+      "pages": [
+        "https://alhamra.edu.my/application-procedure/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "primrose",
+      "pages": [
+        "https://www.primrosehillactivelearning.co.uk/contact",
+        "https://www.primrosehillactivelearning.co.uk/join-us"
+      ],
+      "outcome": "New published recruitment/HR contact established; see record source."
+    },
+    {
+      "id": "sempurna",
+      "pages": [
+        "https://srisempurna.edu.my/contact",
+        "https://srisempurna.edu.my/careers"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "dasmesh",
+      "pages": [
+        "https://sridasmesh.edu.my/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "utama",
+      "pages": [
+        "https://utama.edu.my/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "victoria",
+      "pages": [],
+      "outcome": "Direct fetch failed: 500"
+    },
+    {
+      "id": "maverick-primary",
+      "pages": [
+        "https://www.maverick.edu.my/Primary/contactus.php",
+        "https://www.maverick.edu.my/Primary/career.php"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "harvest",
+      "pages": [
+        "https://www.harvestintsch.edu.my/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "hibiscus",
+      "pages": [
+        "https://hibiscus.edu.my/",
+        "https://hibiscus.edu.my/careers/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "ais",
+      "pages": [
+        "https://ais-kl.edu.my/contact-us/"
+      ],
+      "outcome": "No additional current recruitment/HR email established from these pages. General contacts remain fallbacks."
+    },
+    {
+      "id": "beaconhouse",
+      "pages": [
+        "https://beaconhousesriinai.edu.my/contact-us/",
+        "https://beaconhouse.edu.my/career/",
+        "https://beaconhousesriinai.edu.my/work-with-us/"
+      ],
+      "outcome": "New published recruitment/HR contact established; see record source."
+    }
+  ],
+  "primarySubjectsStillUnresolved": [
+    {
+      "id": "fairview-kl",
+      "source": "https://fairview.edu.my/our-programmes/primary-years-programme/",
+      "reason": "Official PYP page lists themes rather than a campus-specific primary subject timetable."
+    },
+    {
+      "id": "fairview-sj",
+      "source": "https://fairview.edu.my/our-programmes/primary-years-programme/",
+      "reason": "Official PYP page lists themes rather than a campus-specific primary subject timetable."
+    },
+    {
+      "id": "cempaka",
+      "source": "https://cdh.cempaka.edu.my/primary/learning/",
+      "reason": "Current primary learning page describes the Finnish approach and support model without a school-specific subject list. Recruitment preferences for Years 7–8 have not been copied into the primary filter."
+    },
+    {
+      "id": "inspiros-klang",
+      "source": "https://inspiros.edu.my/klang/",
+      "reason": "Klang campus is still described as in its final stages of completion. Puchong subjects have not been assumed to apply."
+    },
+    {
+      "id": "beverly",
+      "source": "https://beverly.com.my/bigs-academic/",
+      "reason": "Official academic page successfully read on 29 October 2026. It confirms Primary Genius ages 6–11 but publishes no primary subject list. Cyberjaya address is still published; no current official HR email was established."
+    },
+    {
+      "id": "emerald",
+      "source": "https://schooladvisor.my/schools/emerald-gardens-international-school",
+      "reason": "Listing says Opening Soon; operating status, primary provision and official contact remain unconfirmed."
+    },
+    {
+      "id": "his-subang",
+      "source": "https://www.hisschools.edu.my/services.html",
+      "reason": "Official programme page confirms Years 1–6 without a readable primary subject list."
+    },
+    {
+      "id": "huaxia",
+      "source": "https://hxis.huaxia.edu.my/",
+      "reason": "Current site navigation exposes early years and secondary; primary availability and subjects need direct confirmation."
+    },
+    {
+      "id": "reed",
+      "source": "https://www.reed.edu.my/",
+      "reason": "Primary provision is stated but no current official primary subject list was established."
+    },
+    {
+      "id": "saint",
+      "source": "https://saint.edu.my/curriculums-2/",
+      "reason": "Official curriculum page confirms primary provision without naming its primary subjects."
+    }
+  ],
+  "limitations": [
+    "Acmar has a partial language list; IGBIS has a partial list supported by explicitly identified PYP teaching roles.",
+    "Sasana lists primary learning areas, including integrated literacy and numeracy, rather than a full timetable.",
+    "BSKL HR contact is published in its 2025–26 handbook; Primrose careers page still mentions September 2025. Confirm current contacts and openings.",
+    "Sri KDU Subang Jaya HR address is for inquiries; the school explicitly prohibits emailing CVs to HR or its Principal. Use its vacancy links.",
+    "Mutiara recruitment email found in a search-indexed 2021 PDF was not promoted: the PDF now returns 404. Use the current careers form.",
+    "Chinese Taipei kindergarten-specific recruitment contact was not promoted as a primary recruitment email.",
+    "Emerald Gardens remains an unconfirmed operating/location lead. Inspiros Klang still requires opening-status confirmation."
+  ]
+}
