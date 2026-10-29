@@ -406,4 +406,16 @@ for(const [id,note] of Object.entries({
  reed:'Second review: official Rawang recruitment advert names languages and Global Perspectives without identifying teaching years. It cannot substantiate a primary-only subject list. Main-site direct access failed; Seri Kembangan material was not copied to Rawang.',
  saint:'Second review: official curriculum, downloads and public pages reviewed. The triangular model combines primary and secondary with arts/technology activities; it does not establish a primary timetable. Broad teacher/internship degree requirements were not treated as taught subjects.'
 })) rows.find(s=>s.id===id).subjectResearchNote=note;
+// Additional teaching levels checked against the listed official pages.
+for(const [id,teachingLevels,levelSource] of [
+ ['help',['Early years','Primary','Secondary','Sixth form'],'https://his.edu.my/careershis/'],
+ ['mkis',['Early years','Primary','Secondary','Sixth form'],'https://www.mkis.edu.my/job-vacancy'],
+ ['kingsgate',['Early years','Primary','Secondary'],'https://www.kingsgate.edu.my/working-with-us/'],
+ ['saint',['Primary','Secondary'],'https://saint.edu.my/career/'],
+ ['aism',['Early years','Primary','Secondary','Sixth form'],'https://careers.taylors.edu.my/job/Seri-Kembangan-(8009)-Teacher-Sela/59520944/']
+]) Object.assign(rows.find(s=>s.id===id),{teachingLevels,levelSource,levelChecked:'2026-10-29'});
+rows.find(s=>s.id==='aism').requirements={scope:'Role-specific example: Academic English Pathway, Years 5–8 (posted 6 October 2026). Not a school-wide minimum or live vacancy listing.',qualifications:'Relevant degree in English, Literature, Humanities, Social Sciences or Education; teaching qualification or equivalent; TESOL qualification or equivalent.',experience:'At least three years teaching EAL/ESL and successful upper-primary or secondary classroom experience. International-school experience is preferred.',source:'https://careers.taylors.edu.my/job/Seri-Kembangan-(8009)-Teacher-Sela/59520944/',checked:'2026-10-29'};
+rows.find(s=>s.id==='iskl').requirements={scope:'Historical role-specific example: Middle School Spanish Teacher, October 2025 profile (application deadline passed). Not primary requirements or a live vacancy.',qualifications:'The profile lists an education degree and relevant teaching certification as preferred qualifications.',experience:'Preferred experience: at least three recognized teaching years and experience with Grades 6–8.',source:'https://resources.finalsite.net/images/v1762251880/iskledumy/om5i1m1u09njdmywpeco/MSWorldLanguagesSpanishTeacher.pdf',checked:'2026-10-29'};
+for(const id of ['alice-primary','alice-secondary']){const s=rows.find(s=>s.id===id);if(s)s.applicationUrl='https://www.alice-smith.edu.my/join/employment-opportunities';}
+rows.find(s=>s.id==='iskl').applicationUrl='https://www.iskl.edu.my/about-us/careers-at-iskl';
 export const schools=rows;
