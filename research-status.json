@@ -4,9 +4,9 @@
     "campusRecords": 158,
     "primaryCampuses": 139,
     "officialLocationSources": 157,
-    "publicEmails": 145,
-    "recruitmentOrHrEmails": 66,
-    "primarySubjectLists": 122
+    "publicEmails": 146,
+    "recruitmentOrHrEmails": 74,
+    "primarySubjectLists": 129
   },
   "limitations": [
     "Subject lists may be partial and may vary by year group.",
@@ -68,55 +68,13 @@
       "id": "qosmo",
       "name": "Qosmo International School",
       "source": "https://qosmoschools.edu.my/programmes/primary-school",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
-    },
-    {
-      "id": "pine-kl",
-      "name": "Pine Hills International School · Kuala Lumpur",
-      "source": "https://pinehills.edu.my/curriculum/best-primary-school-selangor/",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
-    },
-    {
-      "id": "pine-sj",
-      "name": "Pine Hills International School · Subang Jaya",
-      "source": "https://pinehills.edu.my/curriculum/best-primary-school-selangor/",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
-    },
-    {
-      "id": "pine-sa",
-      "name": "Pine Hills International School · Shah Alam",
-      "source": "https://pinehills.edu.my/curriculum/best-primary-school-selangor/",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
-    },
-    {
-      "id": "knewton-rawang",
-      "name": "Knewton Global Schools · Rawang",
-      "source": "https://rawang.knewton.edu.my/learning-2026/",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
-    },
-    {
-      "id": "japanese",
-      "name": "Japanese School of Kuala Lumpur",
-      "source": "https://jskl.edu.my/gakkou-annai/",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
-    },
-    {
-      "id": "winz",
-      "name": "WINZ International School",
-      "source": "https://winzschool.com/",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
-    },
-    {
-      "id": "rafflesia-puchong",
-      "name": "Rafflesia International School · Puchong",
-      "source": "https://www.ris.edu.my/rafflesia-international-school-puchong/international-primary-curriculum-ipc",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
+      "reason": "Follow-up: current primary programme page and still-live admissions campaign do not name individual subjects. The old /primary/ page returns 404; search-index Drama/Art/Music text is historical and was not promoted as current. No primary subject list established."
     },
     {
       "id": "indonesia",
       "name": "Sekolah Indonesia Kuala Lumpur",
       "source": "https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/90101017",
-      "reason": "Official primary provision confirmed, but individually named primary subjects were not established in the reviewed sources. Do not infer a subject list from the curriculum brand."
+      "reason": "Follow-up: school main website returned HTTP 500. Ministry register confirms primary provision, but no current school-specific primary subject list was established. National curriculum templates, non-formal learning-centre material and recruitment subjects were not substituted for a campus timetable."
     }
   ],
   "emailUnresolved": [
@@ -198,12 +156,6 @@
       "id": "knewton-rawang",
       "name": "Knewton Global Schools · Rawang",
       "source": "https://rawang.knewton.edu.my/job-opportunities-2026/",
-      "reason": "No verified public mailbox established from the official pages reviewed."
-    },
-    {
-      "id": "japanese",
-      "name": "Japanese School of Kuala Lumpur",
-      "source": "https://jskl.edu.my/",
       "reason": "No verified public mailbox established from the official pages reviewed."
     }
   ],
@@ -626,166 +578,123 @@
       "id": "baseerah",
       "name": "Baseerah International School",
       "source": "https://baseerah.edu.my/jobs/",
-      "reason": "Verified careers/application channel available; no recruitment-specific mailbox established."
+      "reason": "The official jobs page gives application instructions and a document checklist. Its general mailbox is not explicitly designated a recruitment mailbox. Address uses Kuala Lumpur in the postal wording; campus is in Selangor."
     },
     {
       "id": "eagles",
       "name": "Eagles Grammar International School",
       "source": "https://egis.edu.my/primary-curriculum/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "School-owned LinkedIn post from September 2024 supplies recruitment@jjinternational.edu.my. Different-domain historical recruitment destination was not promoted without current corroboration; retain info@egis.edu.my."
     },
     {
       "id": "templer",
       "name": "Templer Park International School",
       "source": "https://tpis.edu.my/career-opportunities/",
-      "reason": "Verified careers/application channel available; no recruitment-specific mailbox established."
-    },
-    {
-      "id": "stars",
-      "name": "STARS International School",
-      "source": "https://stars.edu.my/contact-us/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
-    },
-    {
-      "id": "suria",
-      "name": "Suria International School",
-      "source": "https://suriaschool.com/WP/contact-us/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "Partial core-subject list. Careers page provides an application form/process; displayed roles include December 2025 and January 2026 dates. General email is not explicitly a CV destination."
     },
     {
       "id": "tanarata",
       "name": "Tanarata International Schools",
       "source": "https://www.tanarata.net/contact-us/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "Search-index copy of the 2024 school advert requests applications at admin@tanarata.net, but the original career/job-vacancies URL now returns 404 with or without trailing slash. Retain general status pending current confirmation."
     },
     {
       "id": "qosmo",
       "name": "Qosmo International School",
       "source": "https://qosmoschools.edu.my/contact-us",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "Current /career/ is a placeholder. Search-index copy supplies b.lanza@qosmoschools.edu.my for old non-teaching roles; current page does not substantiate it. Retain general inquiry mailbox."
     },
     {
       "id": "pine-kl",
       "name": "Pine Hills International School · Kuala Lumpur",
-      "source": "https://pinehills.edu.my/careers/",
-      "reason": "Verified careers/application channel available; no recruitment-specific mailbox established."
+      "source": "https://boards.briohr.com/pinehillsinternationalschoolcommandorholdings-zqm3hyzgw0",
+      "reason": "Shared school primary list transcribed from the official subject graphics, visually checked on 31 October 2026. ICT is normalized to Computing, Visual Arts to Art, and Performance Art to Performing Arts. The school does not publish a separate timetable for each campus here; confirm year/campus availability. Recruitment uses the school-linked BrioHR portal; no recruitment mailbox established."
     },
     {
       "id": "pine-sj",
       "name": "Pine Hills International School · Subang Jaya",
-      "source": "https://pinehills.edu.my/careers/",
-      "reason": "Verified careers/application channel available; no recruitment-specific mailbox established."
+      "source": "https://boards.briohr.com/pinehillsinternationalschoolcommandorholdings-zqm3hyzgw0",
+      "reason": "Shared school primary list transcribed from the official subject graphics, visually checked on 31 October 2026. ICT is normalized to Computing, Visual Arts to Art, and Performance Art to Performing Arts. The school does not publish a separate timetable for each campus here; confirm year/campus availability. Recruitment uses the school-linked BrioHR portal; no recruitment mailbox established."
     },
     {
       "id": "pine-sa",
       "name": "Pine Hills International School · Shah Alam",
-      "source": "https://pinehills.edu.my/careers/",
-      "reason": "Verified careers/application channel available; no recruitment-specific mailbox established."
-    },
-    {
-      "id": "kingsway",
-      "name": "Kingsway International Secondary School",
-      "source": "https://kingsway.edu.my/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "source": "https://boards.briohr.com/pinehillsinternationalschoolcommandorholdings-zqm3hyzgw0",
+      "reason": "Shared school primary list transcribed from the official subject graphics, visually checked on 31 October 2026. ICT is normalized to Computing, Visual Arts to Art, and Performance Art to Performing Arts. The school does not publish a separate timetable for each campus here; confirm year/campus availability. Recruitment uses the school-linked BrioHR portal; no recruitment mailbox established."
     },
     {
       "id": "portman",
       "name": "PORTMAN International Secondary School",
-      "source": "https://is.portman.edu.my/contact-us/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "source": "https://portman.edu.my/contact",
+      "reason": "Secondary provision is described at https://is.portman.edu.my/secondary-overview/ . Secondary campus: primary subjects are not applicable. Official group contact route includes Careers for teaching, corporate and internship enquiries. Select Careers, specify the international secondary school, then review the enquiry in WhatsApp. No recruitment email established."
     },
     {
       "id": "knewton-rawang",
       "name": "Knewton Global Schools · Rawang",
       "source": "https://rawang.knewton.edu.my/job-opportunities-2026/",
-      "reason": "Verified careers/application channel available; no recruitment-specific mailbox established."
+      "reason": "Verified international Key Stage 2 (Years 3–6) list from the current 2026 curriculum page, linked by the primary international page. Design, Technology & Innovation is normalized to Design & Technology; ICT to Computing. This is a partial primary list: the linked KS1 page returned 404. The older primary curriculum names Music, but the 2026 KS2 list does not, so Music was not carried forward. Careers page has a CV form and stated no vacancies when reviewed."
     },
     {
       "id": "treetop",
       "name": "Tree Top International School",
       "source": "https://treetop.edu.my/career/",
-      "reason": "Verified careers/application channel available; no recruitment-specific mailbox established."
-    },
-    {
-      "id": "imas-putrajaya",
-      "name": "International Modern Arabic School (IMAS) · Putrajaya",
-      "source": "https://imas.edu.my/contact-us/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
-    },
-    {
-      "id": "imas-kl",
-      "name": "IMAS International School · Kuala Lumpur",
-      "source": "https://kl.imas.edu.my/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
-    },
-    {
-      "id": "imas-uniten",
-      "name": "International Modern Arabic School (IMAS) · UNITEN Secondary",
-      "source": "https://sites.google.com/imas.edu.my/grade8a7resources/about-imas-secondary/contact-us",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "Use the careers application form. General email is an inquiry fallback. ICT is mentioned in a cross-curricular description, not established as a separate primary subject."
     },
     {
       "id": "rocklin",
       "name": "Rocklin International School",
-      "source": "https://www.rocklinschool.edu.my/contact-1/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "source": "https://www.teachaway.com/schools/rocklin-international-school",
+      "reason": "Partial elementary core list; upper elementary is Grades 2–5. School employer profile on Teach Away provides an application route. Verify the relevant role and apply through the platform; no recruitment email established."
     },
     {
       "id": "korean",
       "name": "Korean School of Malaysia",
-      "source": "https://ksmy.kr/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
-    },
-    {
-      "id": "japanese",
-      "name": "Japanese School of Kuala Lumpur",
-      "source": "https://jskl.edu.my/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "source": "https://ksmy.kr/38/",
+      "reason": "Partial list from the explicitly named elementary foreign-language curriculum; does not enumerate the Korean national-curriculum subjects. Recruitment notice reviewed at https://ksmy.kr/38/?idx=175309427&bmode=view is a results/update notice, not an open application channel. Official notice board publishes recruitment advertisements. June 2026 secondary Music applications used middle5@ksmy.kr, but that deadline has passed and the address is role-specific, so it was not substituted for the general school mailbox."
     },
     {
       "id": "cheltenham",
       "name": "Cheltenham College International School Kuala Lumpur",
       "source": "https://cheltenhamkl.edu.my/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "Official website and school-owned LinkedIn page provide admissions/programme enquiries only. Those contacts and unrelated UK school HR were not relabelled recruitment."
     },
     {
       "id": "winz",
       "name": "WINZ International School",
       "source": "https://winzschool.com/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "Official admissions/home pages publish Info@winzschool.com, without recruitment instructions. No school-published recruitment destination established."
     },
     {
       "id": "summer",
       "name": "Summer International Secondary School",
       "source": "https://siss.edu.my/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "Official school site and indexed privacy notice supply general/administrative contacts, not CV instructions. Unrelated companies named Summer International were excluded."
     },
     {
       "id": "valley",
       "name": "Valley International School",
       "source": "https://www.valley.edu.my/contact-us/",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
-    },
-    {
-      "id": "aspiration-secondary",
-      "name": "Aspiration International School · Secondary",
-      "source": "https://www.aspirationis.edu.my/contact-us",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "reason": "Official become-a-teacher route has no usable application instructions. Current contact templates and similarly named overseas schools were excluded; no verified recruitment route established."
     },
     {
       "id": "indonesia",
       "name": "Sekolah Indonesia Kuala Lumpur",
-      "source": "https://bipa.kemendikdasmen.go.id/jaga?dt=MTE5&show=viewBipa&usr=0",
-      "reason": "General inquiry fallback only; no verified recruitment channel established."
+      "source": "https://gtk.kemendikdasmen.go.id/gtksilnclc/",
+      "reason": "Indonesian expatriate school. Primary provision and address are confirmed by the Indonesian education ministry register. The ministry directory supplies a general school email; no primary subject list established. Official Indonesian education-ministry SILN recruitment portal explicitly includes Kuala Lumpur. The 2026 teacher application window was 14 September–2 October and is closed; monitor future rounds and follow eligibility rules. This is a recruitment route, not an open vacancy or direct CV mailbox."
     }
   ],
   "latestReview": {
     "date": "2026-10-31",
-    "type": "Multi-source campus coverage audit",
-    "evidence": "research/coverage-audit-2026-10-31.json",
-    "addedCampuses": 41,
-    "unresolvedSourceListings": 52,
-    "notes": "Three discovery sources, 20 pages, 472 source listings reconciled. Primary-subject scope retained; no guessed recruitment emails or map coordinates."
+    "type": "Primary-subject and recruitment-contact follow-up",
+    "evidence": "research/review-2026-10-31-primary-recruitment.json",
+    "primaryCampusesReviewed": 9,
+    "primaryListsEstablished": 7,
+    "primaryListsUnresolved": 2,
+    "recruitmentContactCampusesReviewed": 26,
+    "newRecruitmentEmailDestinations": 8,
+    "newApplicationRoutesWithoutEmail": 4,
+    "existingApplicationRoutesRechecked": 7,
+    "recruitmentRoutesStillUnresolved": 7
   },
   "primarySubjectsPartiallyResolved": [
     {
@@ -1017,6 +926,141 @@
       ],
       "source": "https://cheltenhamkl.edu.my/lower-primary-upper-primary/",
       "note": "Partial PE-only result: current primary page names PE but does not individually identify the language subjects. UK partner announces first pupils in 2026; local site describes the current Year 1–11 pathway. No verified recruitment channel was established; the inquiry contact is a fallback, not an invitation to send a CV."
+    },
+    {
+      "id": "pine-kl",
+      "name": "Pine Hills International School · Kuala Lumpur",
+      "outcome": "Sourced subset; grade/campus scope is qualified",
+      "subjects": [
+        "English",
+        "Mathematics",
+        "Science",
+        "Humanities",
+        "Computing",
+        "Bahasa Melayu",
+        "Mandarin",
+        "Art",
+        "Music",
+        "Performing Arts",
+        "Physical Education",
+        "PSHE"
+      ],
+      "source": "https://pinehills.edu.my/curriculum/best-primary-school-selangor/",
+      "note": "Shared school primary list transcribed from the official subject graphics, visually checked on 31 October 2026. ICT is normalized to Computing, Visual Arts to Art, and Performance Art to Performing Arts. The school does not publish a separate timetable for each campus here; confirm year/campus availability. Recruitment uses the school-linked BrioHR portal; no recruitment mailbox established."
+    },
+    {
+      "id": "pine-sj",
+      "name": "Pine Hills International School · Subang Jaya",
+      "outcome": "Sourced subset; grade/campus scope is qualified",
+      "subjects": [
+        "English",
+        "Mathematics",
+        "Science",
+        "Humanities",
+        "Computing",
+        "Bahasa Melayu",
+        "Mandarin",
+        "Art",
+        "Music",
+        "Performing Arts",
+        "Physical Education",
+        "PSHE"
+      ],
+      "source": "https://pinehills.edu.my/curriculum/best-primary-school-selangor/",
+      "note": "Shared school primary list transcribed from the official subject graphics, visually checked on 31 October 2026. ICT is normalized to Computing, Visual Arts to Art, and Performance Art to Performing Arts. The school does not publish a separate timetable for each campus here; confirm year/campus availability. Recruitment uses the school-linked BrioHR portal; no recruitment mailbox established."
+    },
+    {
+      "id": "pine-sa",
+      "name": "Pine Hills International School · Shah Alam",
+      "outcome": "Sourced subset; grade/campus scope is qualified",
+      "subjects": [
+        "English",
+        "Mathematics",
+        "Science",
+        "Humanities",
+        "Computing",
+        "Bahasa Melayu",
+        "Mandarin",
+        "Art",
+        "Music",
+        "Performing Arts",
+        "Physical Education",
+        "PSHE"
+      ],
+      "source": "https://pinehills.edu.my/curriculum/best-primary-school-selangor/",
+      "note": "Shared school primary list transcribed from the official subject graphics, visually checked on 31 October 2026. ICT is normalized to Computing, Visual Arts to Art, and Performance Art to Performing Arts. The school does not publish a separate timetable for each campus here; confirm year/campus availability. Recruitment uses the school-linked BrioHR portal; no recruitment mailbox established."
+    },
+    {
+      "id": "knewton-rawang",
+      "name": "Knewton Global Schools · Rawang",
+      "outcome": "Sourced subset; grade/campus scope is qualified",
+      "subjects": [
+        "English",
+        "Science",
+        "Mathematics",
+        "Guided Reading",
+        "PSHE",
+        "History",
+        "Geography",
+        "Design & Technology",
+        "Art",
+        "Bahasa Melayu",
+        "Mandarin",
+        "Computing",
+        "Physical Education",
+        "Islamic Studies"
+      ],
+      "source": "https://rawang.knewton.edu.my/learning/ks2-curriculum-2026/",
+      "note": "Verified international Key Stage 2 (Years 3–6) list from the current 2026 curriculum page, linked by the primary international page. Design, Technology & Innovation is normalized to Design & Technology; ICT to Computing. This is a partial primary list: the linked KS1 page returned 404. The older primary curriculum names Music, but the 2026 KS2 list does not, so Music was not carried forward. Careers page has a CV form and stated no vacancies when reviewed."
+    },
+    {
+      "id": "japanese",
+      "name": "Japanese School of Kuala Lumpur",
+      "outcome": "Sourced subset; grade/campus scope is qualified",
+      "subjects": [
+        "Japanese",
+        "Mathematics",
+        "Social Studies",
+        "Science",
+        "Music",
+        "Art",
+        "Physical Education",
+        "Home Economics",
+        "English"
+      ],
+      "source": "https://jskl.edu.my/files/user/01%20%E5%B0%8F%E5%AD%A6%E9%83%A8%E3%81%AE%E5%AD%A6%E6%A0%A1%E7%94%9F%E6%B4%BB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6(R8.4).pdf",
+      "note": "Partial primary subject list translated from the school’s April 2026 elementary handbook, page 2, visually checked. Japanese = 国語; Mathematics = 算数; Social Studies = 社会; Science = 理科; Music = 音楽; Art = 図工; Physical Education includes health = 保健体育; Home Economics = 家庭 (Grades 5–6); English = 英語. Not every subject is taught in every grade. Recruitment contact is specifically for the temporary administrative officer role (November 2026–December 2027), not a verified teaching recruitment mailbox. The official notice asks for a CV and expected salary. Check the notice’s Japanese-language and work-authorization conditions."
+    },
+    {
+      "id": "winz",
+      "name": "WINZ International School",
+      "outcome": "Sourced subset; grade/campus scope is qualified",
+      "subjects": [
+        "English",
+        "Bahasa Melayu",
+        "Mandarin"
+      ],
+      "source": "https://winzschool.com/admissions/",
+      "note": "Partial school-wide language list: the admissions FAQ names English Language Support, compulsory Bahasa Malaysia and core Mandarin, applicable to the primary pathway. English is supported by the named language-support provision, not inferred only from teaching medium. Availability of language support depends on need. Other sections of this page contain unfilled intake/class-size placeholders; no values were taken from those fields. No verified recruitment channel established; the published email remains an inquiry fallback."
+    },
+    {
+      "id": "rafflesia-puchong",
+      "name": "Rafflesia International School · Puchong",
+      "outcome": "Sourced subset; grade/campus scope is qualified",
+      "subjects": [
+        "Mandarin",
+        "Bahasa Melayu"
+      ],
+      "source": "https://www.ris.edu.my/rafflesia-international-school-puchong/trilingual-proficiency",
+      "note": "Partial school-wide language evidence: Mandarin is explicitly studied from early years through secondary; Bahasa Melayu is mandatory for Malaysian students. English as the medium of instruction and IGCSE English courses do not establish a separately named primary English subject, so neither was used to expand this primary list. The IPC page still lacks an individual subject breakdown. Recruitment uses jobs@rafflesia.edu.my; follow the current vacancy instructions."
     }
-  ]
+  ],
+  "previousReview": {
+    "date": "2026-10-31",
+    "type": "Multi-source campus coverage audit",
+    "evidence": "research/coverage-audit-2026-10-31.json",
+    "addedCampuses": 41,
+    "unresolvedSourceListings": 52,
+    "notes": "Three discovery sources, 20 pages, 472 source listings reconciled. Primary-subject scope retained; no guessed recruitment emails or map coordinates."
+  }
 }
