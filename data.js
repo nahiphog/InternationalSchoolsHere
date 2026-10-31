@@ -1,3 +1,4 @@
+import { coverageAdditions } from './coverage-additions.js';
 // Research snapshot: 28 October 2026. Null/empty fields mean not established.
 // Coordinates are approximate area/campus estimates unless coordinateSource is present.
 export const checked='2026-10-28';
@@ -418,4 +419,25 @@ rows.find(s=>s.id==='aism').requirements={scope:'Role-specific example: Academic
 rows.find(s=>s.id==='iskl').requirements={scope:'Historical role-specific example: Middle School Spanish Teacher, October 2025 profile (application deadline passed). Not primary requirements or a live vacancy.',qualifications:'The profile lists an education degree and relevant teaching certification as preferred qualifications.',experience:'Preferred experience: at least three recognized teaching years and experience with Grades 6–8.',source:'https://resources.finalsite.net/images/v1762251880/iskledumy/om5i1m1u09njdmywpeco/MSWorldLanguagesSpanishTeacher.pdf',checked:'2026-10-29'};
 for(const id of ['alice-primary','alice-secondary']){const s=rows.find(s=>s.id===id);if(s)s.applicationUrl='https://www.alice-smith.edu.my/join/employment-opportunities';}
 rows.find(s=>s.id==='iskl').applicationUrl='https://www.iskl.edu.my/about-us/careers-at-iskl';
+// Spectrum additions: 31 October 2026. Shared programme evidence is distinguished from campus evidence.
+for(const [id,name,area,state,address,website] of [
+ ['spectrum-kl','Spectrum International School · Kuala Lumpur','Kenny Hill','Kuala Lumpur','Lot 69, Seksyen 71, Lorong Tun Ismail, Kenny Hill, 50480 Kuala Lumpur, Malaysia','https://spectrumiis.edu.my/kuala-lumpur-school/'],
+ ['spectrum-putrajaya','Spectrum International School · Putrajaya','Presint 17','Putrajaya','Lot 36262, No.1 Persiaran Timur, Off Presint 17, 62200 Putrajaya, Selangor, Malaysia','https://spectrumiis.edu.my/putrajaya-campus/']
+]){
+ add(id,name,area,state,address,null,null,website,'info@spectrumiis.edu.my','General','https://spectrumiis.edu.my/career/',
+  ['English','Mathematics','Science','Arabic','Bahasa Melayu','Islamic Studies','Quranic Studies'],'https://spectrumiis.edu.my/primary/',
+  'Shared school recruitment channel: use the official careers page and its staff application form; specify your preferred campus. No recruitment email was established. The published info mailbox is a general inquiry fallback, not a CV submission address. The linked Google Form returned HTTP 401 when fetched; vacancies and form contents were not verified. Subjects are a partial list from school-wide primary, Year 6 Checkpoint and FAQ evidence, not a complete campus timetable.',
+  'Cambridge Primary / Islamic (Azhar)');
+ Object.assign(rows.at(-1),{checked:'2026-10-31',subjectChecked:'2026-10-31',contactChecked:'2026-10-31',locationChecked:'2026-10-31',locationSource:'https://spectrumiis.edu.my/contact-us/',applicationUrl:'https://spectrumiis.edu.my/career/',
+  recruitmentFormUrl:'https://docs.google.com/forms/d/e/1FAIpQLSeVFGjgbV0rxp_xM1ERYptrExiM_zQOO_C8WdrQP5tKgWHoNQ/viewform',
+  subjectSources:['https://spectrumiis.edu.my/primary/','https://spectrumiis.edu.my/cambridge-checkpoint-achievers/','https://spectrumiis.edu.my/faq/']});
+}
+const spectrumKL=rows.find(s=>s.id==='spectrum-kl');
+spectrumKL.subjects.push('History','Computing','Art','Physical Education');
+spectrumKL.subjectSource='https://ptc.spectrumiis.edu.my/kuala-lumpur-school/upper-primary-kl/year-5b';
+spectrumKL.subjectSources.push(spectrumKL.subjectSource);
+spectrumKL.notes+=' Kuala Lumpur Year 5B PTC page additionally names Malaysia History, ICT, Art and Physical Education CCA. ICT is normalized to Computing; Bahasa to Bahasa Melayu using the FAQ. GP is not expanded or included because the page does not define it. The PTC page has no explicit academic-year date. KL coordinates remain unverified.';
+Object.assign(rows.find(s=>s.id==='spectrum-putrajaya'),{lat:2.9225433,lng:101.7104132,coordinateSource:'https://maps.app.goo.gl/uye4VyChPhZ95KZp7'});
+rows.find(s=>s.id==='spectrum-putrajaya').notes+=' Address reproduced from the official contact page, which includes Selangor; the directory region follows the school’s Putrajaya campus designation. Coordinates come from the place marker in its officially linked Google Maps URL.';
+rows.push(...coverageAdditions);
 export const schools=rows;

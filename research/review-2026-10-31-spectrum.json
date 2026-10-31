@@ -1,0 +1,96 @@
+{
+  "reviewed": "2026-10-31",
+  "scope": "Add both Spectrum campuses; other schools were not rechecked",
+  "previousReview": "research/review-2026-10-29-second-pass.json",
+  "contactEvidence": "Official career page links a shared staff Google Form and publishes info@spectrumiis.edu.my in its email-protected footer, decoded from the public HTML. No HR/recruitment mailbox established. Form fetch returned 401; no sign-in or submission attempted.",
+  "subjectEvidence": {
+    "shared": "Primary page explicitly supports Islamic Studies and Quran; FAQ supports English, Arabic and Bahasa Malaysia for primary years; Cambridge Checkpoint Achievers names English, Mathematics and Science for Year 6.",
+    "kualaLumpur": "Year 5B PTC page supports additional History, ICT (Computing), Art and Physical Education CCA. GP omitted because its expansion is not established. PTC academic-year date unspecified.",
+    "putrajaya": "Partial school-wide primary list only; KL-specific subjects not copied."
+  },
+  "records": [
+    {
+      "id": "spectrum-kl",
+      "name": "Spectrum International School · Kuala Lumpur",
+      "area": "Kenny Hill",
+      "state": "Kuala Lumpur",
+      "address": "Lot 69, Seksyen 71, Lorong Tun Ismail, Kenny Hill, 50480 Kuala Lumpur, Malaysia",
+      "lat": null,
+      "lng": null,
+      "website": "https://spectrumiis.edu.my/kuala-lumpur-school/",
+      "email": "info@spectrumiis.edu.my",
+      "contactKind": "General",
+      "contactSource": "https://spectrumiis.edu.my/career/",
+      "subjects": [
+        "English",
+        "Mathematics",
+        "Science",
+        "Arabic",
+        "Bahasa Melayu",
+        "Islamic Studies",
+        "Quranic Studies",
+        "History",
+        "Computing",
+        "Art",
+        "Physical Education"
+      ],
+      "subjectSource": "https://ptc.spectrumiis.edu.my/kuala-lumpur-school/upper-primary-kl/year-5b",
+      "notes": "Shared school recruitment channel: use the official careers page and its staff application form; specify your preferred campus. No recruitment email was established. The published info mailbox is a general inquiry fallback, not a CV submission address. The linked Google Form returned HTTP 401 when fetched; vacancies and form contents were not verified. Subjects are a partial list from school-wide primary, Year 6 Checkpoint and FAQ evidence, not a complete campus timetable. Kuala Lumpur Year 5B PTC page additionally names Malaysia History, ICT, Art and Physical Education CCA. ICT is normalized to Computing; Bahasa to Bahasa Melayu using the FAQ. GP is not expanded or included because the page does not define it. The PTC page has no explicit academic-year date. KL coordinates remain unverified.",
+      "curriculum": "Cambridge Primary / Islamic (Azhar)",
+      "primary": true,
+      "locationSource": "https://spectrumiis.edu.my/contact-us/",
+      "coordinateSource": null,
+      "checked": "2026-10-31",
+      "subjectChecked": "2026-10-31",
+      "contactChecked": "2026-10-31",
+      "locationChecked": "2026-10-31",
+      "applicationUrl": "https://spectrumiis.edu.my/career/",
+      "recruitmentFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeVFGjgbV0rxp_xM1ERYptrExiM_zQOO_C8WdrQP5tKgWHoNQ/viewform",
+      "subjectSources": [
+        "https://spectrumiis.edu.my/primary/",
+        "https://spectrumiis.edu.my/cambridge-checkpoint-achievers/",
+        "https://spectrumiis.edu.my/faq/",
+        "https://ptc.spectrumiis.edu.my/kuala-lumpur-school/upper-primary-kl/year-5b"
+      ]
+    },
+    {
+      "id": "spectrum-putrajaya",
+      "name": "Spectrum International School · Putrajaya",
+      "area": "Presint 17",
+      "state": "Putrajaya",
+      "address": "Lot 36262, No.1 Persiaran Timur, Off Presint 17, 62200 Putrajaya, Selangor, Malaysia",
+      "lat": 2.9225433,
+      "lng": 101.7104132,
+      "website": "https://spectrumiis.edu.my/putrajaya-campus/",
+      "email": "info@spectrumiis.edu.my",
+      "contactKind": "General",
+      "contactSource": "https://spectrumiis.edu.my/career/",
+      "subjects": [
+        "English",
+        "Mathematics",
+        "Science",
+        "Arabic",
+        "Bahasa Melayu",
+        "Islamic Studies",
+        "Quranic Studies"
+      ],
+      "subjectSource": "https://spectrumiis.edu.my/primary/",
+      "notes": "Shared school recruitment channel: use the official careers page and its staff application form; specify your preferred campus. No recruitment email was established. The published info mailbox is a general inquiry fallback, not a CV submission address. The linked Google Form returned HTTP 401 when fetched; vacancies and form contents were not verified. Subjects are a partial list from school-wide primary, Year 6 Checkpoint and FAQ evidence, not a complete campus timetable. Address reproduced from the official contact page, which includes Selangor; the directory region follows the school’s Putrajaya campus designation. Coordinates come from the place marker in its officially linked Google Maps URL.",
+      "curriculum": "Cambridge Primary / Islamic (Azhar)",
+      "primary": true,
+      "locationSource": "https://spectrumiis.edu.my/contact-us/",
+      "coordinateSource": "https://maps.app.goo.gl/uye4VyChPhZ95KZp7",
+      "checked": "2026-10-31",
+      "subjectChecked": "2026-10-31",
+      "contactChecked": "2026-10-31",
+      "locationChecked": "2026-10-31",
+      "applicationUrl": "https://spectrumiis.edu.my/career/",
+      "recruitmentFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeVFGjgbV0rxp_xM1ERYptrExiM_zQOO_C8WdrQP5tKgWHoNQ/viewform",
+      "subjectSources": [
+        "https://spectrumiis.edu.my/primary/",
+        "https://spectrumiis.edu.my/cambridge-checkpoint-achievers/",
+        "https://spectrumiis.edu.my/faq/"
+      ]
+    }
+  ]
+}

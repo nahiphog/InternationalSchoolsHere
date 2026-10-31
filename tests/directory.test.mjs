@@ -12,7 +12,9 @@ test('primary focus excludes secondary campuses; combined filters find a sourced
  assert.ok(filterSchools(schools,defaults).every(s=>s.primary));
  const result=filterSchools(schools,{...defaults,query:'HELP',region:'Selangor',subject:'Science',contact:'recruitment'});
  assert.deepEqual(result.map(s=>s.id),['help']);
- assert.equal(filterSchools(schools,{...defaults,region:'Putrajaya',subject:'Science'})[0].id,'nexus');
+ const putrajayaScience=filterSchools(schools,{...defaults,region:'Putrajaya',subject:'Science'});
+ assert.ok(putrajayaScience.some(s=>s.id==='nexus'));
+ assert.ok(putrajayaScience.every(s=>s.state==='Putrajaya'&&s.subjects.includes('Science')));
  assert.ok(filterSchools(schools,{...defaults,secondary:true}).some(s=>!s.primary));
 });
 test('saved view respects filters and unconfirmed email filter never treats a fallback as HR',()=>{
